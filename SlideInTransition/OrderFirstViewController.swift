@@ -8,7 +8,15 @@
 
 import UIKit
 
+struct Family {
+  var scientificName: String
+  var commonName: String
+}
+
 class OrderFirstViewController: UIViewController {
+  
+    var families = [
+      Family(scientificName: "Ameletidae", commonName: "Comb-mouthed Minnow Mayflies")]
     
     @IBOutlet weak var tableView: UITableView!
   
@@ -19,17 +27,20 @@ class OrderFirstViewController: UIViewController {
     }
     
 
-    
-
 }
 
+
 extension OrderFirstViewController: UITableViewDelegate, UITableViewDataSource {
+  
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+      return families.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "OrderFirstTableViewCell", for: indexPath) as? OrderFirstTableViewCell else {fatalError("Unable to create OrderFirstTableViewCell")}
+        let family = families[indexPath.row]
+      cell.scientificName.text = family.scientificName
+      cell.commonName.text = family.commonName
         return cell
     }
     

@@ -37,13 +37,13 @@ class SlideInTransition: NSObject, UIViewControllerAnimatedTransitioning {
             containerView.addSubview(toViewController.view)
 
             // Init frame off the screen
-            toViewController.view.frame = CGRect(x: -finalWidth, y: 0, width: finalWidth, height: finalHeight)
+            toViewController.view.frame = CGRect(x: toViewController.view.bounds.width, y: 0, width: finalWidth, height: finalHeight)
         }
 
         // Move on screen
         let transform = {
             self.dimmingView.alpha = 0.5
-            toViewController.view.transform = CGAffineTransform(translationX: finalWidth, y: 0)
+            toViewController.view.transform = CGAffineTransform(translationX: -finalWidth, y: 0)
         }
 
 

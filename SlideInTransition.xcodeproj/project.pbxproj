@@ -35,6 +35,9 @@
 		5E07F75624C0D0050059715A /* cleoptera-adult.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E07F74C24C0D0050059715A /* cleoptera-adult.png */; };
 		5E07F75724C0D0050059715A /* odonata.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E07F74D24C0D0050059715A /* odonata.png */; };
 		5E07F75824C0D0050059715A /* ephemeroptera.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E07F74E24C0D0050059715A /* ephemeroptera.png */; };
+		5EAE66A024C6065100A8E58E /* attenella.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE669D24C6065100A8E58E /* attenella.png */; };
+		5EAE66A124C6065100A8E58E /* baetis.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE669E24C6065100A8E58E /* baetis.png */; };
+		5EAE66A224C6065100A8E58E /* baetis-ventral.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE669F24C6065100A8E58E /* baetis-ventral.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +71,9 @@
 		5E07F74C24C0D0050059715A /* cleoptera-adult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cleoptera-adult.png"; sourceTree = "<group>"; };
 		5E07F74D24C0D0050059715A /* odonata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = odonata.png; sourceTree = "<group>"; };
 		5E07F74E24C0D0050059715A /* ephemeroptera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ephemeroptera.png; sourceTree = "<group>"; };
+		5EAE669D24C6065100A8E58E /* attenella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attenella.png; sourceTree = "<group>"; };
+		5EAE669E24C6065100A8E58E /* baetis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baetis.png; sourceTree = "<group>"; };
+		5EAE669F24C6065100A8E58E /* baetis-ventral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baetis-ventral.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,7 @@
 		5E07F74324C0D0050059715A /* img */ = {
 			isa = PBXGroup;
 			children = (
+				5EAE669C24C6065100A8E58E /* ephemeroptera */,
 				5E07F74424C0D0050059715A /* home_img */,
 			);
 			path = img;
@@ -155,6 +162,16 @@
 				5E07F74E24C0D0050059715A /* ephemeroptera.png */,
 			);
 			path = home_img;
+			sourceTree = "<group>";
+		};
+		5EAE669C24C6065100A8E58E /* ephemeroptera */ = {
+			isa = PBXGroup;
+			children = (
+				5EAE669D24C6065100A8E58E /* attenella.png */,
+				5EAE669E24C6065100A8E58E /* baetis.png */,
+				5EAE669F24C6065100A8E58E /* baetis-ventral.png */,
+			);
+			path = ephemeroptera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,8 +238,11 @@
 				5E07F75824C0D0050059715A /* ephemeroptera.png in Resources */,
 				20C8FBE821EAC6D300850BB7 /* LaunchScreen.storyboard in Resources */,
 				5E07F75224C0D0050059715A /* hemiptera.png in Resources */,
+				5EAE66A224C6065100A8E58E /* baetis-ventral.png in Resources */,
 				5E07F75124C0D0050059715A /* trichoptera.png in Resources */,
 				5E07F75024C0D0050059715A /* cleoptera-larva.png in Resources */,
+				5EAE66A024C6065100A8E58E /* attenella.png in Resources */,
+				5EAE66A124C6065100A8E58E /* baetis.png in Resources */,
 				20C8FBE521EAC6D300850BB7 /* Assets.xcassets in Resources */,
 				20C8FBE321EAC6D200850BB7 /* Main.storyboard in Resources */,
 				5E07F74F24C0D0050059715A /* lepidoptera.png in Resources */,
