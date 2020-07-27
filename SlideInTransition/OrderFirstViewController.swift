@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct Family {
+struct FamilyA {
   var scientificName: String
   var commonName: String
 }
@@ -16,7 +16,7 @@ struct Family {
 class OrderFirstViewController: UIViewController {
   
     var families = [
-      Family(scientificName: "Ameletidae", commonName: "Comb-mouthed Minnow Mayflies")]
+      FamilyA(scientificName: "Ameletidae", commonName: "Comb-mouthed Minnow Mayflies")]
     
     @IBOutlet weak var tableView: UITableView!
   

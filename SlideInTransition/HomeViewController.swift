@@ -29,6 +29,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         key.layer.masksToBounds = false
         key.layer.shadowRadius = 2.0
         key.layer.shadowOpacity = 0.5
+      
         
     }
     
@@ -91,6 +92,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         let vc =
             storyboard?
                 .instantiateViewController(withIdentifier: "OrderViewController") as? OrderViewController
+        print("==========================!!!!========================")
         self.navigationController?.pushViewController(vc!, animated: true)
     }
     
@@ -109,7 +111,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         cell.layer.shadowOffset = CGSize(width: 0, height: 2.0)
         cell.layer.shadowRadius = 2.0
         cell.layer.shadowOpacity = 0.1
-        cell.layer.masksToBounds = false //<-
+        cell.layer.masksToBounds = false
         
         return cell
     }
