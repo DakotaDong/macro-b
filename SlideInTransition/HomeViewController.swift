@@ -99,7 +99,6 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         let vc =
             storyboard?
                 .instantiateViewController(withIdentifier: "OrderViewController") as? OrderViewController
-        print("==========================!!!!========================")
         self.navigationController?.pushViewController(vc!, animated: true)
     }
     
