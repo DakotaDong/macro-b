@@ -30,8 +30,6 @@ class DBHelper
 //        .appendingPathComponent(dbPath)
         var db: OpaquePointer? = nil
       //if sqlite3_open(fileURL.path, &db) != SQLITE_OK
-      print("!!!!==!!!")
-      print(fileURL.path)
       if sqlite3_open_v2(fileURL.path, &db, SQLITE_OPEN_READWRITE, nil) != SQLITE_OK
         {
             print("error opening database")
@@ -133,20 +131,5 @@ class DBHelper
         return psns
     }
     
-//    func deleteByID(id:Int) {
-//        let deleteStatementStirng = "DELETE FROM person WHERE Id = ?;"
-//        var deleteStatement: OpaquePointer? = nil
-//        if sqlite3_prepare_v2(db, deleteStatementStirng, -1, &deleteStatement, nil) == SQLITE_OK {
-//            sqlite3_bind_int(deleteStatement, 1, Int32(id))
-//            if sqlite3_step(deleteStatement) == SQLITE_DONE {
-//                print("Successfully deleted row.")
-//            } else {
-//                print("Could not delete row.")
-//            }
-//        } else {
-//            print("DELETE statement could not be prepared")
-//        }
-//        sqlite3_finalize(deleteStatement)
-//    }
     
 }

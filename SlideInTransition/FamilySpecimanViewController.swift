@@ -25,7 +25,7 @@ class FamilySpecimanViewController: UIViewController {
  
 }
 
-extension FamilySpecimanViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+extension FamilySpecimanViewController: UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         print(families.count)
@@ -43,6 +43,14 @@ extension FamilySpecimanViewController: UICollectionViewDelegate, UICollectionVi
     }
   
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-         return CGSize(width: 142, height: 272)
+         print("!!!!!!!!!!!!!!!!!!")
+         return CGSize(width: 256, height: 379)
      }
+    
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//        let flowayout = collectionViewLayout as? UICollectionViewFlowLayout
+//        let space: CGFloat = (flowayout?.minimumInteritemSpacing ?? 0.0) + (flowayout?.sectionInset.left ?? 0.0) + (flowayout?.sectionInset.right ?? 0.0)
+//        let size:CGFloat = (collectionView.frame.size.width - space) / 2.0
+//        return CGSize(width: size, height: size)
+//    }
 }

@@ -34,6 +34,8 @@
 		5E9D7B7C24D8610B0041EFD0 /* KeyStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D7B7B24D8610B0041EFD0 /* KeyStartViewController.swift */; };
 		5E9D7B7E24D861AB0041EFD0 /* Key.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9D7B7D24D861AB0041EFD0 /* Key.storyboard */; };
 		5E9D7B8024D876810041EFD0 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 5E9D7B7F24D876810041EFD0 /* img */; };
+		5E9D7B8324D89F6E0041EFD0 /* ZoomVentralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D7B8124D89F6E0041EFD0 /* ZoomVentralViewController.swift */; };
+		5E9D7B8424D89F6E0041EFD0 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D7B8224D89F6E0041EFD0 /* ZoomViewController.swift */; };
 		5EB30BD724CC88DC004075A5 /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB30BD424CC88D9004075A5 /* Family.swift */; };
 		5EB30BD824CC88DC004075A5 /* FamilySpecimanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB30BD524CC88DB004075A5 /* FamilySpecimanCollectionViewCell.swift */; };
 		5EB30BD924CC88DC004075A5 /* FamilySpecimanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB30BD624CC88DB004075A5 /* FamilySpecimanViewController.swift */; };
@@ -73,6 +75,8 @@
 		5E9D7B7B24D8610B0041EFD0 /* KeyStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStartViewController.swift; sourceTree = "<group>"; };
 		5E9D7B7D24D861AB0041EFD0 /* Key.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Key.storyboard; sourceTree = "<group>"; };
 		5E9D7B7F24D876810041EFD0 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		5E9D7B8124D89F6E0041EFD0 /* ZoomVentralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomVentralViewController.swift; sourceTree = "<group>"; };
+		5E9D7B8224D89F6E0041EFD0 /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 		5EB30BD424CC88D9004075A5 /* Family.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
 		5EB30BD524CC88DB004075A5 /* FamilySpecimanCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilySpecimanCollectionViewCell.swift; sourceTree = "<group>"; };
 		5EB30BD624CC88DB004075A5 /* FamilySpecimanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilySpecimanViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 				5E07F74024C0CEB30059715A /* TopMenuPopViewController.swift */,
 				5E07F73D24C0C3D50059715A /* CustomSegmentedContrl.swift */,
 				1D99526D24BB7DB40057AC55 /* OrderFamilyTableViewCell.swift */,
+				5E9D7B8124D89F6E0041EFD0 /* ZoomVentralViewController.swift */,
+				5E9D7B8224D89F6E0041EFD0 /* ZoomViewController.swift */,
 				1D99526F24BCF0310057AC55 /* OrderFirstViewController.swift */,
 				5E07F73924C0C0350059715A /* OrderSecondViewController.swift */,
 				5E07F73B24C0C0440059715A /* OrderThirdViewController.swift */,
@@ -256,6 +262,7 @@
 				5E07F74124C0CEB40059715A /* TopMenuPopCollectionViewCell.swift in Sources */,
 				1D99526E24BB7DB40057AC55 /* OrderFamilyTableViewCell.swift in Sources */,
 				5E07F73E24C0C3D50059715A /* CustomSegmentedContrl.swift in Sources */,
+				5E9D7B8324D89F6E0041EFD0 /* ZoomVentralViewController.swift in Sources */,
 				1DC24BA3249E98B500DD30DE /* OrderCollectionViewCell.swift in Sources */,
 				5EB30BD824CC88DC004075A5 /* FamilySpecimanCollectionViewCell.swift in Sources */,
 				5EB30BD724CC88DC004075A5 /* Family.swift in Sources */,
@@ -265,6 +272,7 @@
 				20C8FBE021EAC6D200850BB7 /* HomeViewController.swift in Sources */,
 				5EB30BDB24CF4633004075A5 /* DBHelper.swift in Sources */,
 				5E9D7B7A24D860DD0041EFD0 /* PopoverContentController.swift in Sources */,
+				5E9D7B8424D89F6E0041EFD0 /* ZoomViewController.swift in Sources */,
 				203835C721EC2F4800D8F86F /* SlideInTransition.swift in Sources */,
 				20C8FBF021EAC83100850BB7 /* MenuViewController.swift in Sources */,
 				5E07F74224C0CEB40059715A /* TopMenuPopViewController.swift in Sources */,

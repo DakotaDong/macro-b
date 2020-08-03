@@ -33,7 +33,7 @@ class OrderThirdViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     self.characterTableView.allowsSelection = false
-    self.view.backgroundColor = .red
+//    self.view.backgroundColor = .red
 
   }
   override func viewWillAppear(_ animated: Bool) {
@@ -81,7 +81,7 @@ extension OrderThirdViewController:UITableViewDataSource, UITableViewDelegate {
 //  }
   
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-    return 100
+    return 200
   }
  
  
