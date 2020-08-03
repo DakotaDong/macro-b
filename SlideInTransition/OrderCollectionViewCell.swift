@@ -22,9 +22,9 @@ class OrderCollectionViewCell: UICollectionViewCell
     
     func updateUI() {
         if let order = order {
-            featuredIamgeView.image = order.featuredImage
-            ordersTitleLabel.text = order.title
-            ordersSubTitleLabel.text = order.subtitle
+            featuredIamgeView.image = UIImage(named: order.featuredImage)
+            ordersTitleLabel.text = order.commonName
+            ordersSubTitleLabel.text = order.scientificName
             
             
         } else {
@@ -42,6 +42,6 @@ class OrderCollectionViewCell: UICollectionViewCell
 
         ordersTitleLabel.lineBreakMode = .byWordWrapping
         ordersTitleLabel.numberOfLines = 0
-        ordersTitleLabel.text = order.title
+        ordersTitleLabel.text = order.commonName
     }
 }

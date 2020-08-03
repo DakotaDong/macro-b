@@ -49,8 +49,8 @@ extension TopMenuPopViewController: UICollectionViewDelegate, UICollectionViewDa
             TopMenuPopCollectionViewCell
         let order = orders[indexPath.item]
         
-        cell.name.text = order.title
-        cell.image.image = order.featuredImage
+        cell.name.text = order.commonName
+        cell.image.image = UIImage(named: order.featuredImage)
         //cell.backgroundColor = UIColor.red
         return cell
     }
