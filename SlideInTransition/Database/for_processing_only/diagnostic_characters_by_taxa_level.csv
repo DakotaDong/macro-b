@@ -1,0 +1,394 @@
+relationshipTypeCode,diagCharId,taxaObjectId,diagCharType,name,description,hasAudio,hasImage
+dc_to_family,1024,4,diag_char_family,Glossae Shorter Than Paraglossae,Glossae much shorter than the paraglossae. ,0,0
+dc_to_family,1025,4,diag_char_family,Thoracic Gills,"Multi-branched, thread-like gills present laterally and ventrally on thorax, but not on abdomen.",0,0
+dc_to_family,39,6,diag_char_family,Divergent Wing Pads ,"Wingpads are not parallel with body, angled away from the midline of the body.",0,0
+dc_to_family,1028,6,diag_char_family,Gills Unlike Peltoperlidae," Unlike Peltoperlidae, gills, if present, are not conical, and thoracic sterna do not overlap. ",0,0
+dc_to_family,1020,6,diag_char_family,Hind Legs Don't Reach,"When extended, hind legs do not reach end of the abdomen.",0,0
+dc_to_family,1021,6,diag_char_family,Paraglossae And Glossae Subequal,"Paraglossae and glossae about same length, suitable for shredding.",0,0
+dc_to_family,38,6,diag_char_family,Tarsal Segments Subequal,"The first and second segment of the tarsus on all legs are the same length. The tarsus is the, most distal leg region (last part of a leg before the claw), often divided into subsegments. When counting tarsal segments, start with the semgent closest to the body. ",0,0
+dc_to_family,24,18,diag_char_family,All Nota Sclerotized,"Pro-, meso-, and metanota entirely covered by sclerites (i.e. the dorsal side of all 3 thoracic segments is hardened).",0,0
+dc_to_family,27,18,diag_char_family,Retreat,"Larvae build stationary retreats of silk, detritus and rock fragments, often used for filter feeding. These usually fall apart when removed from the water, but you may see some rements when flping over rocks to search for larvae, it will look like a clup of loose slime (silk) and small rock pieces.",0,0
+dc_to_family,26,18,diag_char_family,Setal Fan On Prolegs,Base of each anal proleg (fleshy nubs at end of body) with conspicuous tuft or fan of long hairs .,0,0
+dc_to_family,25,18,diag_char_family,Ventral Branched Abdominal Gills,Abdomen with rows of branched gills ventrally.,0,0
+dc_to_family,494,31,diag_char_family,Forelegs With Long Hair,Femora (thighs) and tibia (shins) of forelegs have long setae along the inner margins. ,0,0
+dc_to_family,495,31,diag_char_family,Minnow-like,"Larvae with streamlined, minnow-like body shape.",0,0
+dc_to_family,34,33,diag_char_family,Antenna Between Mandibles and Eyes,"As in all families of superfamily Limnephiloidea, the short, inconspicuous antennae are each located about midway between the base of the mandible and the eye. ",0,0
+dc_to_family,514,109,diag_char_family,Lateral Filaments,"Abdominal segments 1–8 with paired, 2-segemented, lateral filaments (slender conical appendages on sides of abdomen)",0,0
+dc_to_family,515,109,diag_char_family,Prolegs With Two Claws,"End of abdomen has a pair of anal prolegs (fleshy nubs at the end of the abdomen), each bearing a 2 claws. ",0,0
+dc_to_family,1840,111,diag_char_family,Lateral Filaments on 1-7,Abdominal segments 1–7 each with pair of lateral filaments each divided into 4–5 segments.,0,0
+dc_to_family,1841,111,diag_char_family,Long Tail,End of abdomen with single long filament.,0,0
+dc_to_family,949,113,diag_char_family,Head Partially Hidden,Head usually partially contracted into thorax. ,0,0
+dc_to_family,951,113,diag_char_family,Transverse Coxae,Forelegs (1st pair of legs) have the coxae (leg segment nearest the body) transverse (not round as in Elmidae).,0,0
+dc_to_family,950,113,diag_char_family,Unique Antenna,"Each antenna 11-segmented, usually with enlarged basal segment and expanded 2nd segment covering remaining antennal segments.",0,0
+dc_to_family,952,113,diag_char_family,Visible Trochantins,"Trochantins visible, unlike Elmidae. This is a small sclerite near where the leg connects with the body.",0,0
+dc_to_family,990,115,diag_char_family,Coxal Plate Not Wedge-like,Broad wedge-like hind coxal plate absent. ,0,0
+dc_to_family,988,115,diag_char_family,Extended Hind Coxae,"Hind coxae (basal most leg segment) each with median portion extending in posterior direction, dividing abdominal segment 1 into lateral sclerites, but not expanding into broad plates (see <a href=""http://macroinvertebrates.org/taxa-characters/coleoptera-adult/haliplidae/peltodytes/ventral/dc954"">Halipidae</a> for example of broad plates). ",0,0
+dc_to_family,989,115,diag_char_family,Large Spurs Absent,Without large spur on end of each front tibia (shin). ,0,0
+dc_to_family,991,115,diag_char_family,Scutellum Usually Visible,"Scutellum (triangular sclerite between the elytra) usually visible, if hidden, then front and middle tarsi apparently 4-segmented and hind tarsi each with 1 claw.",0,0
+dc_to_family,993,119,diag_char_family,5-Segmented Tarsi,Each leg with 5 tarsal segments.,0,0
+dc_to_family,995,119,diag_char_family,Big Claws,Big Claws,0,0
+dc_to_family,994,119,diag_char_family,Last Tarsal Segment Subequal,Last tarsal segment about as long as other segments ,0,0
+dc_to_family,992,119,diag_char_family,Thread-like Antennae,"Antennae slender, thread-like",0,0
+dc_to_family,953,135,diag_char_family,4 Eyes," Compound eyes divided into separate dorsal and ventral portions ( ""4-eyed"" appearance).",0,0
+dc_to_family,954,140,diag_char_family,Expanded Hind Coxae,"Each hind coxa (first segment of the last leg) expanded into a broad, flat, plate, ventrally covering the first 2 or 3 abdominal segments and most of hind femora.",0,0
+dc_to_family,1000,143,diag_char_family,5 Segments Before Cupule,"Antenna ually with 5 segments before cupule (cup-shaped, hairless, segment 6)",0,0
+dc_to_family,997,143,diag_char_family,Antenna Subequal To Head,Antennae about as long head,0,0
+dc_to_family,998,143,diag_char_family,Antennal Segment Articulation,2nd antennal segment attached at apex of 1st (basal-most) segment ,0,0
+dc_to_family,999,143,diag_char_family,Clubbed Antennae,Antennal segments 7–9 clubbed.,0,0
+dc_to_family,996,143,diag_char_family,Long Maxillary Palpi,Maxillary palpi usually longer than antennae. ,0,0
+dc_to_family,1842,156,diag_char_family,Base of Mandibles with Bristles,Pair of brushes of bristles above bases of mandibles.,0,0
+dc_to_family,1803,156,diag_char_family,Mandibles Moving Vertically,Mandibles moving vertically and parallel to one another.,0,0
+dc_to_family,1865,156,diag_char_family,Pair of Long Tubercles Fringed with Hair,Last abdominal segment with pair of long tubercles fringed with hair.,0,0
+dc_to_family,2201,156,diag_char_family,Prolegs Present Ventrally from segments 1-8,A pair of prolegs present on abdominal segments 1-8,0,0
+dc_to_family,1864,156,diag_char_family,Slender Tubercles on 2-7,"Abdominal segments 2–7 each with two pairs of slender tubercles laterally and dorsally, 1 pair of spiny prolegs ventrally.",0,0
+dc_to_family,1853,158,diag_char_family,Head Capsule Complete but Not Distinct,Head capsule complete but not distinctly separated from thorax.,0,0
+dc_to_family,1802,158,diag_char_family,Mandibles Moving Horizontally,Mandibles moving horizontally against each other.,0,0
+dc_to_family,1854,158,diag_char_family,Suction Cup on Each Body Division,"Body divided into 6 major divisions, each with single suction cup ventrally.",0,0
+dc_to_family,1125,160,diag_char_family,Head Complete and Exposed,Head complete and fully exposed. The head is not drawn into the thorax.,0,0
+dc_to_family,1126,160,diag_char_family,With Or Without Prolegs,"Prolegs (fleshy nubs) can be present or absent on the prothorax (1st thoracic segment). Like in the specimen imaged here (<em>Probezzia</em>), if prolegs are absent the body is usually smooth, shiny, and cream colored, usually without any surface features except a few hairs especially posteriorly, and sometimes a single retractile anal proleg bearing a few hooks. Alternatively, if there is a pair of ventral prolegs on the prothorax, then the prothoracic and anal prolegs are usually paired (even if divison slight and only at apex) and there are distinct dorsal fleshy projections and/or setae along body.",0,0
+dc_to_family,1125,162,diag_char_family,Head Complete and Exposed,Head complete and fully exposed. The head is not drawn into the thorax.,0,0
+dc_to_family,1127,162,diag_char_family,Thoracic And Anal Prolegs,"Paired hook-bearing prolegs (fleshy nubs used for movement) are present on the prothorax and at the posterior end of the body. At first glance these may appear as a single proleg, but they are paired, the division may be slight and only at the apex of the proleg.",0,0
+dc_to_family,1868,168,diag_char_family,Fused Thoracic Segments,"Thoracic segments fused, nearly indistinguishable, wider than head and abdomen.",0,0
+dc_to_family,1795,168,diag_char_family,Head Capsule Complete and Exposed,"Head capsule complete, fully exposed.",0,0
+dc_to_family,1802,168,diag_char_family,Mandibles Moving Horizontally,Mandibles moving horizontally against each other.,0,0
+dc_to_family,1823,168,diag_char_family,Slender Antennae with Short Setae,Antennae slender with short setae.,0,0
+dc_to_family,1872,170,diag_char_family,Distinct Thoracic Segments,"Thoracic segments clearly evident, no wider than abdomen.",0,0
+dc_to_family,1829,170,diag_char_family,Flat Lobes Fringed with Hair on Last Segment,Last abdominal segment with pair of flat lobes fringed with hair.,0,0
+dc_to_family,1795,170,diag_char_family,Head Capsule Complete and Exposed,"Head capsule complete, fully exposed.",0,0
+dc_to_family,1826,170,diag_char_family,Hook-bearing Prolegs on 1-2,First and (usually) second abdominal segments each with pair of hook-bearing prolegs.,0,0
+dc_to_family,1802,170,diag_char_family,Mandibles Moving Horizontally,Mandibles moving horizontally against each other.,0,0
+dc_to_family,1866,172,diag_char_family,1-4 Rounded Lobes on End of Abdomen,End of abdomen with 1–4 rounded lobes with apical setae.,0,0
+dc_to_family,1825,172,diag_char_family,All Abdominal Segments with Hook-bearing Prolegs,Abdominal segments each bearing pair of prolegs with apical hooks.,0,0
+dc_to_family,1806,172,diag_char_family,Head Capsule Not Sclerotized and Exposed,"Head capsule exposed, mostly not sclerotized, reduced to slender rods that are prominent internally.",0,0
+dc_to_family,1797,172,diag_char_family,Mouth Hooks Moving Vertically,Mouth hooks moving vertically and parallel with each other.,0,0
+dc_to_family,1875,172,diag_char_family,Spiracles Absent,Spiracles usually absent.,0,0
+dc_to_family,1825,174,diag_char_family,All Abdominal Segments with Hook-bearing Prolegs,Abdominal segments each bearing pair of prolegs with apical hooks.,0,0
+dc_to_family,1128,174,diag_char_family,Head Retracted in Thorax,"The hardened head capsule is not visible from the outside, it is always deeply retracted inside thorax, and can only be viewed with dissection. ",0,0
+dc_to_family,2205,174,diag_char_family,Respiratory Tube,,0,0
+dc_to_family,1128,175,diag_char_family,Head Retracted in Thorax,"The hardened head capsule is not visible from the outside, it is always deeply retracted inside thorax, and can only be viewed with dissection. ",0,0
+dc_to_family,1129,175,diag_char_family,Posterior Spiracles with Lobes,The posterior spiracles are rimmed by 2–7 (usually 5) lobes often fringed with hair.,0,0
+dc_to_family,1796,178,diag_char_family,Head Not Externally Sclerotized,Head capsule not sclerotized externally.,0,0
+dc_to_family,1852,178,diag_char_family,"Last Segment Blunt, Smooth","Last abdominal segment blunt, smooth.",0,0
+dc_to_family,1797,178,diag_char_family,Mouth Hooks Moving Vertically,Mouth hooks moving vertically and parallel with each other.,0,0
+dc_to_family,1838,178,diag_char_family,Posterior Spiracles each with 3 Slits,Pair of posterior spiracles each with 3 sinuous slits.,0,0
+dc_to_family,1805,180,diag_char_family,Head Capsule Sclerotized and Mostly Retracted,Head capsule sclerotized and mostly retracted in membranous body.,0,0
+dc_to_family,1873,180,diag_char_family,Long Ventral Lobes on Abdominal Apex,End of abdomen with pair of spiracles and pair of long ventral lobes.,0,0
+dc_to_family,1802,180,diag_char_family,Mandibles Moving Horizontally,Mandibles moving horizontally against each other.,0,0
+dc_to_family,1863,182,diag_char_family,Body Segments Subdivided,All body segments secondarily divided into 2–3 subdivisions most of which bear dorsal sclerotized plates.,0,0
+dc_to_family,1872,182,diag_char_family,Distinct Thoracic Segments,"Thoracic segments clearly evident, no wider than abdomen.",0,0
+dc_to_family,1795,182,diag_char_family,Head Capsule Complete and Exposed,"Head capsule complete, fully exposed.",0,0
+dc_to_family,1802,182,diag_char_family,Mandibles Moving Horizontally,Mandibles moving horizontally against each other.,0,0
+dc_to_family,1795,184,diag_char_family,Head Capsule Complete and Exposed,"Head capsule complete, fully exposed.",0,0
+dc_to_family,1871,184,diag_char_family,Hooked Prolegs on 1-3,"First 3 abdominal segments each with ventral pair of prolegs, each with single apical hook.",0,0
+dc_to_family,1808,184,diag_char_family,Long Respiratory Siphon,End of abdomen with long retractile respiratory siphon.,0,0
+dc_to_family,1802,184,diag_char_family,Mandibles Moving Horizontally,Mandibles moving horizontally against each other.,0,0
+dc_to_family,1131,186,diag_char_family,Abdomen Swollen Posteriorly,"Abdominal segments 5–8 are swollen, appearing ballooned or bowling-pin-like. Often these balooned posterior ends are attached to the substrate. ",0,0
+dc_to_family,1125,186,diag_char_family,Head Complete and Exposed,Head complete and fully exposed. The head is not drawn into the thorax.,0,0
+dc_to_family,1130,186,diag_char_family,Labral Fans,Head capsule usually with pair of conspicuous fans.,0,0
+dc_to_family,1822,189,diag_char_family,Body Flattened,Body somewhat depressed.,0,0
+dc_to_family,1800,189,diag_char_family,Head Capsule Sclerotized and Mostly Exposed,"Head capsule sclerotized and mostly exposed, incapable of independent movement.",0,0
+dc_to_family,1809,189,diag_char_family,Leathery Integument,"Integument tough, leathery, with calcium deposits evident as small facets.",0,0
+dc_to_family,1803,189,diag_char_family,Mandibles Moving Vertically,Mandibles moving vertically and parallel to one another.,0,0
+dc_to_family,1796,191,diag_char_family,Head Not Externally Sclerotized,Head capsule not sclerotized externally.,0,0
+dc_to_family,1797,191,diag_char_family,Mouth Hooks Moving Vertically,Mouth hooks moving vertically and parallel with each other.,0,0
+dc_to_family,1870,191,diag_char_family,Posterior Spiracles Fused,"Posterior spiracles fused or abutting, usually on apex of retractile respiratory tube.",0,0
+dc_to_family,1801,193,diag_char_family,Head Capsule Sclerotized and Mostly Retracted,"Head capsule sclerotized and mostly retracted in membranous body, usually with longitudinal incisions posteriorly or reduced to long rods.",0,0
+dc_to_family,1869,193,diag_char_family,Lobed Posterior Spiracles with Hair,Posterior pair of spiracles bordered by at least 6 lobes fringed with hair.,0,0
+dc_to_family,1802,193,diag_char_family,Mandibles Moving Horizontally,Mandibles moving horizontally against each other.,0,0
+dc_to_family,1011,195,diag_char_family,Notched Upper Lip,The labrum (upper lip) usually has a median notch. The labrum or upper-lip is a flap-like structure covering the mouthparts. You are looking for an indentation or dip along the far edge.,0,0
+dc_to_family,1035,195,diag_char_family,Pectinate Spines On Maxillae, Maxillae (second pair of jaws) each with row of conspicuous pectinate (comb-like) spines. ,0,0
+dc_to_family,1810,195,diag_char_family,Short Antennae,"Antennae short, less than twice width of head.  Refer to <a href=""http://macroinvertebrates.org/taxa-characters/ephemeroptera-larva/baetidae"">Baetidae</a> for longer than head antenna. ",0,0
+dc_to_family,1012,197,diag_char_family,Long Antenna,"The antennae are usually long, two or three times or more width of the head",0,0
+dc_to_family,1011,197,diag_char_family,Notched Upper Lip,The labrum (upper lip) usually has a median notch. The labrum or upper-lip is a flap-like structure covering the mouthparts. You are looking for an indentation or dip along the far edge.,0,0
+dc_to_family,1819,202,diag_char_family,Shield-like Pronotum,Pronotum forming large shield over rest of thorax and 5 basal segments of abdomen.,0,0
+dc_to_family,1132,204,diag_char_family,Square Semioperculate Gills,"Paired gills on abdominal segment 2 are nearly square, and meeting or almost meeting medially (but NOT fused). These gills on segment 2 are at least partially covering the succeeding pairs (semioperculate).",0,0
+dc_to_family,1133,206,diag_char_family,Segment 2 Without Gills,This is the only mayfly family with gills absent on abdominal segment 2.,0,0
+dc_to_family,1016,212,diag_char_family,Fluffy Abdominal Gills," Abdominal gills on segments 2–7 are conspicuous dorsaly, forked and elongate-lancolate, with fringed margins, giving the animal a fluffy appearance.",0,0
+dc_to_family,1014,212,diag_char_family,Fossorial Foretibiae ,"The Foretibiae (the shins of the first pair of legs), are expanded/enlarged, and used for burrowing in sediment.",0,0
+dc_to_family,1013,212,diag_char_family,Large Tusks,Large Tusks for are located anterioly on the head. ,0,0
+dc_to_family,1015,212,diag_char_family,Pointed Hind Tibiae,Ventral apex of each hind tibia acutely pointed (i.e. the shins of the last pair of legs each have a point at the end).,0,0
+dc_to_family,480,215,diag_char_family,Flat Head And Body,Head and body dorsoventrally flattened (flattend from top to bottom). ,0,0
+dc_to_family,481,215,diag_char_family,Margin Around Eyes,Lateral margins of head visible beside the eyes.,0,0
+dc_to_family,1017,222,diag_char_family,Operculate Gill On 2,The gills on abdominal segment 2 are operculate or semioperculate. (i.e. the gills on this segment at least partially cover the gills on the preceeding segment). The gills are and roughly triangular or oval.,0,0
+dc_to_family,1134,224,diag_char_family,Double Lamellate Gills,"The gills on abdominal segments 2–7 are double-layered and lamellate (plate-like). The gills can be terminated in filaments or points and without fringe, or oval with fringe.",0,0
+dc_to_family,1798,228,diag_char_family,Foreleg Claws Bifid,Claw on each foreleg bifid.,0,0
+dc_to_family,1799,228,diag_char_family,Gills on 1-7 Plate-like,Pair of plate-like gills present on abdominal segments 1–7.,0,0
+dc_to_family,1850,230,diag_char_family,"Gills on 2-7 Forked, Long, Curving over Abdomen","Gills on abdominal segments 2–7 forked, long, tapered, fringed with hair, curving over top of abdomen.",0,0
+dc_to_family,1793,230,diag_char_family,Legs Flattened or Tuberculate,Legs flattened or tuberculate.,0,0
+dc_to_family,1792,230,diag_char_family,Long Tusks Straight or Downcurved,Mandibles each with long tusk straight or downcurved.,0,0
+dc_to_family,1824,230,diag_char_family,​Hind Tibiae Rounded Apically,Hind tibiae rounded apically.,0,0
+dc_to_family,1855,232,diag_char_family,"Gills on 2-7 Forked, Long, Projecting Laterad","Gills on abdominal segments 2–7 forked, long, tapered, fringed with hair, projecting laterad.",0,0
+dc_to_family,1794,232,diag_char_family,Legs Slender,Legs slender.,0,0
+dc_to_family,1791,232,diag_char_family,Long Tusks,Mandibles each with long tusk.,0,0
+dc_to_family,1811,234,diag_char_family,"3 ""Tails"" Subequal",Median caudal filament as long as cerci.,0,0
+dc_to_family,1814,234,diag_char_family,Distal Margin of Labrum Straight,"Distal margin of labrum straight, not notched.",0,0
+dc_to_family,1799,234,diag_char_family,Gills on 1-7 Plate-like,Pair of plate-like gills present on abdominal segments 1–7.,0,0
+dc_to_family,1810,234,diag_char_family,Short Antennae,"Antennae short, less than twice width of head.  Refer to <a href=""http://macroinvertebrates.org/taxa-characters/ephemeroptera-larva/baetidae"">Baetidae</a> for longer than head antenna. ",0,0
+dc_to_family,1789,236,diag_char_family,Antennae Shorter than Head,"Antennae shorter than head, not visible from above.",0,0
+dc_to_family,1862,236,diag_char_family,Flat Air Straps on Abdominal Apex,"Apex of abdomen with pair of short, flat, retractile air straps.",0,0
+dc_to_family,1789,238,diag_char_family,Antennae Shorter than Head,"Antennae shorter than head, not visible from above.",0,0
+dc_to_family,1861,238,diag_char_family,Scoop-like Front Tarsi,"Each front tarsus a single segment, scoop-like, fringed with stiff setae.",0,0
+dc_to_family,1813,238,diag_char_family,"Short, Triangular Beak","Beak triangular, very short, unsegmented.",0,0
+dc_to_family,1136,240,diag_char_family,Anteapical Claws,At least front tarsus (last leg segment) with anteapical claws. These are claws that protrude from leg before the apex.,0,0
+dc_to_family,1790,240,diag_char_family,Antennae Longer than Head,"Antennae longer than head, visible from above.",0,0
+dc_to_family,1820,240,diag_char_family,Hind Femora Longer than Abdomen,Hind femora much longer than abdomen.,0,0
+dc_to_family,1843,240,diag_char_family,Middle Legs Closer to Hind Legs,Middle legs arising closer to hind legs than to front legs.,0,0
+dc_to_family,473,242,diag_char_family,Eyes Contiguous With Head,Similar in appearence to Belostomatidae (giant water bugs) except that margins of eyes are contiguous with anterior margin of head in Naucoridae; i.e. the eyes are right against the edge of the head.,0,0
+dc_to_family,474,242,diag_char_family,Raptorial Legs,"Forelegs are raptorial, suitable for use in predation, with broad femora, and weakly convex dorsally.",0,0
+dc_to_family,1789,244,diag_char_family,Antennae Shorter than Head,"Antennae shorter than head, not visible from above.",0,0
+dc_to_family,1860,244,diag_char_family,Long Breathing Tube on Abdominal Apex,Apex of abdomen with long cylindrical breathing tube that is not retractile.,0,0
+dc_to_family,1789,246,diag_char_family,Antennae Shorter than Head,"Antennae shorter than head, not visible from above.",0,0
+dc_to_family,1844,246,diag_char_family,Body Convex Dorsally,Body strongly convex dorsally.,0,0
+dc_to_family,1837,246,diag_char_family,"Long, Oar-like Hind Legs","Hind legs longer than others, oar-like, its claws inconspicuous.",0,0
+dc_to_family,1821,246,diag_char_family,Swimming Hairs on Legs,Middle and hind legs with fringes of swimming hairs.,0,0
+dc_to_family,1136,248,diag_char_family,Anteapical Claws,At least front tarsus (last leg segment) with anteapical claws. These are claws that protrude from leg before the apex.,0,0
+dc_to_family,1135,248,diag_char_family,Antennae Longer Than Head,"The antennae are longer than the head. They are positioned anterior to the eyes, clearly visible from the dorsal side.",0,0
+dc_to_family,1137,248,diag_char_family,Hind Femora Short,"The hind femora are shorter than the abdomen, or just barely longer.",0,0
+dc_to_family,1839,251,diag_char_family,2 Setae in Front of Each Lateral Spiracle,Prothorax with 2 setae in front of each lateral spiracle.,0,0
+dc_to_family,1859,251,diag_char_family,Prolegs on 3-6 with Crochets,"Prolegs of abdominal sterna 3–6 with crochets (tiny hooks) arranged in an ellipse, or two transverse lines.",0,0
+dc_to_family,1835,253,diag_char_family,5 Short Appendages on End of Abdomen,"End of abdomen with 5 short, stiff, pointed appendages.",0,0
+dc_to_family,1845,253,diag_char_family,No Dorsal Premental Setae,Labial prementum without dorsal setae.,0,0
+dc_to_family,1846,253,diag_char_family,No Palpal Setae,Labial palps parallel-sided and usually without setae.,0,0
+dc_to_family,1849,253,diag_char_family,Prementum and Palps Flat,Labial prementum and palps flat beneath head.,0,0
+dc_to_family,1812,253,diag_char_family,"Slender, Bristle-like Antennae","Antennae slender, bristle-like.",0,0
+dc_to_family,1018,255,diag_char_family,1st Antennal Segment Long,"First antennal segment (segment nearest the head) long, subequal to length of rest of antenna.",0,0
+dc_to_family,1836,255,diag_char_family,3 Tracheal Gills,"End of abdomen with 3 long, tracheal gills.",0,0
+dc_to_family,1836,257,diag_char_family,3 Tracheal Gills,"End of abdomen with 3 long, tracheal gills.",0,0
+dc_to_family,1537,257,diag_char_family,Antennal Segment 1 Short,Antennal segment 1 much shorter than the rest of the antenna.,0,0
+dc_to_family,1538,257,diag_char_family,Mask without Cleft,Ligula (distal part of palm of mask) usually without median cleft. The mask is roughly triangular or square (not stalked as in Lestidae).,0,0
+dc_to_family,1835,261,diag_char_family,5 Short Appendages on End of Abdomen,"End of abdomen with 5 short, stiff, pointed appendages.",0,0
+dc_to_family,1540,261,diag_char_family,Dorsal Premental Setae,"Dorsal premental setae present. These are hairs located inside the mask, on the palm. If the mask is closed you will have to use forceps to gently open it.",0,0
+dc_to_family,1847,261,diag_char_family,Margins of Labial Palps Toothed,"Labial palps with distal margins deeply incised into large, irregular teeth.",0,0
+dc_to_family,1541,261,diag_char_family,Palpal Setae,Palpal Setae are present. These are hair along the margins of the palpal lobes (at end of mask).,0,0
+dc_to_family,1804,261,diag_char_family,Prementum and Palps Spoon-like,Labial prementum and palps spoon-like.,0,0
+dc_to_family,1835,263,diag_char_family,5 Short Appendages on End of Abdomen,"End of abdomen with 5 short, stiff, pointed appendages.",0,0
+dc_to_family,1540,263,diag_char_family,Dorsal Premental Setae,"Dorsal premental setae present. These are hairs located inside the mask, on the palm. If the mask is closed you will have to use forceps to gently open it.",0,0
+dc_to_family,1542,263,diag_char_family,Median Groove,"Ventrally, there is a median groove extending from the basal hinge of the mask to about 1/3 to 1/2 way to the distal margin of mask. It is often faint.",0,0
+dc_to_family,1541,263,diag_char_family,Palpal Setae,Palpal Setae are present. These are hair along the margins of the palpal lobes (at end of mask).,0,0
+dc_to_family,1539,263,diag_char_family,Spoon-shaped Mask,Labial mask spoon-shaped. This is a arm-like extremity that covers the mouth parts and is used for capturing prey.,0,0
+dc_to_family,1544,265,diag_char_family,4-Segmented Antennae,"The antennae are each 4-segmented, although the 4th segment is often small.",0,0
+dc_to_family,1543,265,diag_char_family,Flat Mask,Labial mask flattened. This is a arm-like extremity that covers the mouth parts and is used for capturing prey.,0,0
+dc_to_family,1836,268,diag_char_family,3 Tracheal Gills,"End of abdomen with 3 long, tracheal gills.",0,0
+dc_to_family,1848,268,diag_char_family,Base of Prementum Long and Slender,"Base of labial prementum long, slender.",0,0
+dc_to_family,1835,270,diag_char_family,5 Short Appendages on End of Abdomen,"End of abdomen with 5 short, stiff, pointed appendages.",0,0
+dc_to_family,1545,270,diag_char_family,Median Groove Absent,"Unlike in Corduliidae, the prementum (basal hinge of the mask) is usually without a ventral basal medial groove.",0,0
+dc_to_family,1539,270,diag_char_family,Spoon-shaped Mask,Labial mask spoon-shaped. This is a arm-like extremity that covers the mouth parts and is used for capturing prey.,0,0
+dc_to_family,1026,277,diag_char_family,Gills Absent,Filamentous gills absent from thoracic and abdominal segments.,0,0
+dc_to_family,1020,277,diag_char_family,Hind Legs Don't Reach,"When extended, hind legs do not reach end of the abdomen.",0,0
+dc_to_family,2225,277,diag_char_family,Membranous Pleural Fold,"This is found on the side of the abdomen.  In <a href=""http://macroinvertebrates.org/taxa-characters/plecoptera-larva/leuctridae/leuctra/ventral/dc2225"">Leuctridae</a>, it is no more than 1-7 segments long and in <a href=""http://macroinvertebrates.org/taxa-characters/plecoptera-larva/capniidae/allocapnia/lateral"">Capniidae</a>, the fold is 1-9 segments long. ",0,0
+dc_to_family,1021,277,diag_char_family,Paraglossae And Glossae Subequal,"Paraglossae and glossae about same length, suitable for shredding.",0,0
+dc_to_family,1758,277,diag_char_family,Small Postmentum,"Postmentum small, not covering bases of maxillae.",0,0
+dc_to_family,1026,279,diag_char_family,Gills Absent,Filamentous gills absent from thoracic and abdominal segments.,0,0
+dc_to_family,1024,279,diag_char_family,Glossae Shorter Than Paraglossae,Glossae much shorter than the paraglossae. ,0,0
+dc_to_family,1023,279,diag_char_family,Hind Legs Reach,"When extended, hind legs reach about to the end of the abdomen.",0,0
+dc_to_family,1765,279,diag_char_family,Short Cerci,Cerci no more than 3/4 as long as abdomen.,0,0
+dc_to_family,1763,279,diag_char_family,Thoracic Terga Plain,"Thoracic terga (segments) without a dark pattern, setting this family apart from the often more patterned stonefly nymphs in the families Perlidae and Perlodidae.",0,0
+dc_to_family,1020,281,diag_char_family,Hind Legs Don't Reach,"When extended, hind legs do not reach end of the abdomen.",0,0
+dc_to_family,1122,281,diag_char_family,Large Postmentum," Postmentum large, covering bases of maxillae",0,0
+dc_to_family,2225,281,diag_char_family,Membranous Pleural Fold,"This is found on the side of the abdomen.  In <a href=""http://macroinvertebrates.org/taxa-characters/plecoptera-larva/leuctridae/leuctra/ventral/dc2225"">Leuctridae</a>, it is no more than 1-7 segments long and in <a href=""http://macroinvertebrates.org/taxa-characters/plecoptera-larva/capniidae/allocapnia/lateral"">Capniidae</a>, the fold is 1-9 segments long. ",0,0
+dc_to_family,1019,281,diag_char_family,Parallel Hind Wing Pads,"Hind wing pads more or less parallel with body axis, and typically longer than wide.",0,0
+dc_to_family,1022,283,diag_char_family,Divergent Hind Wing Pads ,Hind wing pads (2nd pair of wing pads) conspicuously divergent from body axis,0,0
+dc_to_family,1023,283,diag_char_family,Hind Legs Reach,"When extended, hind legs reach about to the end of the abdomen.",0,0
+dc_to_family,1021,283,diag_char_family,Paraglossae And Glossae Subequal,"Paraglossae and glossae about same length, suitable for shredding.",0,0
+dc_to_family,1748,285,diag_char_family,Conical Thoracic Gills,Thoracic gills conical in shape and occur singly or doubly. ,0,0
+dc_to_family,1021,285,diag_char_family,Paraglossae And Glossae Subequal,"Paraglossae and glossae about same length, suitable for shredding.",0,0
+dc_to_family,1747,285,diag_char_family,Roach-like Body,"Mayfly nymphs of this family have a broad, roach-like body.",0,0
+dc_to_family,1764,285,diag_char_family,Thoracic Sterna Overlapping,"Thoracic sterna produced posteriorly, each overlapping succeeding segment.",0,0
+dc_to_family,1026,287,diag_char_family,Gills Absent,Filamentous gills absent from thoracic and abdominal segments.,0,0
+dc_to_family,1024,287,diag_char_family,Glossae Shorter Than Paraglossae,Glossae much shorter than the paraglossae. ,0,0
+dc_to_family,1027,287,diag_char_family,Tails Subequal To Abdomen,Cerci (tails) are about the same length as the abdomen.,0,0
+dc_to_family,1760,292,diag_char_family,Gill Tufts on Thorax and Abdomen,Tufts of filamentous gills on thorax and first two abdominal segments.,0,0
+dc_to_family,1021,292,diag_char_family,Paraglossae And Glossae Subequal,"Paraglossae and glossae about same length, suitable for shredding.",0,0
+dc_to_family,1611,300,diag_char_family,Mesonotum sclerotized,The mesonotum of larvae in this family is covered with a pair of sclerites.,0,0
+dc_to_family,1613,300,diag_char_family,Metanotum mostly membranous,"The metanotum of larvae in this family usually has 2–3 pairs of small sclerites, but is mostly membranous.",0,0
+dc_to_family,1614,300,diag_char_family,Setose metanotum,More than 25 setae are distributed transversely in the anteromesal region of the metanotum.,0,0
+dc_to_family,1616,300,diag_char_family,Smooth mandibular margins,"Mandibles with inner margins usually smooth, without teeth.",0,0
+dc_to_family,1615,300,diag_char_family,​Antenna Midway Between Eye and Mandible,Larvae have tiny antennae each midway between an eye and its corresponding mandible.,0,0
+dc_to_family,1617,300,diag_char_family,​Hooded sand case,"Portable sand case of sand and papoose-like, extended over larval head.",0,0
+dc_to_family,1611,302,diag_char_family,Mesonotum sclerotized,The mesonotum of larvae in this family is covered with a pair of sclerites.,0,0
+dc_to_family,1624,302,diag_char_family,Metanotum mostly membranous,"The metanotum of larvae in this family usually has 2 pairs of small sclerites posteromesally and laterally, but is mostly membranous.",0,0
+dc_to_family,1625,302,diag_char_family,​Humpless abdominal segment I,First abdominal segment lacking membranous lateral humps (can be expanded or collapsed).,0,0
+dc_to_family,1626,302,diag_char_family,​Transversely arranged plant-material case,"Portable case of slender plant materials arranged transversely.  The plant materials can be either wrapped around the insect to form a tapered cylinder, or they can be organized to make a four-sided log-cabin tube.",0,0
+dc_to_family,1611,305,diag_char_family,Mesonotum sclerotized,The mesonotum of larvae in this family is covered with a pair of sclerites.,0,0
+dc_to_family,1637,305,diag_char_family,​Dead leaf or hollowed-twig case,"The larvae of this family create a portable case either made with two dead leaves on top of one another, or out of a hollowed stick or other piece of wood.",0,0
+dc_to_family,1635,305,diag_char_family,​Metanotum mostly membranous,"The metanotum has 1 pair of small lateral sclerites, but is mostly membranous.",0,0
+dc_to_family,1636,305,diag_char_family,​Setae on labrum,"The labrum of this family has a transverse row of 16 setae across the middle, giving these caddisflies a mustached appearance.",0,0
+dc_to_family,1040,306,diag_char_family,Branching Retreat,"Larvae make branching tube-like retreats buried in sand or soft sediment, except tips of branches sticking above sediment. You can find these by using a seave in soft sandy sediment, look for branching sandy tubes, often with a bulbus end on one of the branches, carfully pull it apart to find the larva.",0,0
+dc_to_family,1038,306,diag_char_family,Hump Between Nota,The Meso- and metanota (2nd and 3rd dorsal thorasic segments) are membranous (not hardened) with a large hump between them. ,0,0
+dc_to_family,1037,306,diag_char_family,Large Spinneret,"Large spinneret, half as long as head. This is a needle-like structure near the mouth, where the silk is extruded.",0,0
+dc_to_family,1039,306,diag_char_family,Tarsi Flattened ,Tarsi (toes- distal most leg region) flattened and tibiae (shins) shorter than tarsi,0,0
+dc_to_family,1642,308,diag_char_family,Membranous mesonotum,The mesonotum is entirely or mostly membranous in larvae of this family.,0,0
+dc_to_family,1643,308,diag_char_family,Membranous metanotum,The metanotum is entirely or mostly membranous in larvae of this family.,0,0
+dc_to_family,1645,308,diag_char_family,Metanotum with 3 pairs of setae,Larvae in this family have 3 pairs of setae (hairs) on their metanotum.,0,0
+dc_to_family,1646,308,diag_char_family,​Abdominal Segment IX with Small Sclerite,The top of the last abdominal segment (segment IX) has one small sclerite. ,0,0
+dc_to_family,1647,308,diag_char_family,​Dome-like case,"Portable case of small rocks, dome-like, with transverse ventral strap of fine sand.",0,0
+dc_to_family,1644,308,diag_char_family,​Mesonotum with 3 pairs of setae,Larvae in this family have 3 pairs of setae (hairs) on their mesonotum.,0,0
+dc_to_family,1612,310,diag_char_family,Mesonotum sclerotized,The mesonotum of larvae from this family is covered with 2 pairs of sclerites and has an additional pair of thick lateral sclerites projecting anterad (toward the head of the caddisfly) beside the pronotum.,0,0
+dc_to_family,1657,310,diag_char_family,Metanotum Mostly Membranous,"The metanotum has 1 pair of small lateral sclerites, but is mostly membranous.",0,0
+dc_to_family,1615,310,diag_char_family,​Antenna Midway Between Eye and Mandible,Larvae have tiny antennae each midway between an eye and its corresponding mandible.,0,0
+dc_to_family,1654,310,diag_char_family,​Tubular Case with Large Ballast Stones,"Tubular portable case made of stones with two pairs of larger, nearly symmetrical lateral “ballast” stones.",0,0
+dc_to_family,1604,312,diag_char_family,Snail shell-like case,The portable case of sand grains Helicopsychid larvae construct resembles a snail shell.,0,0
+dc_to_family,1611,314,diag_char_family,Mesonotum sclerotized,The mesonotum of larvae in this family is covered with a pair of sclerites.,0,0
+dc_to_family,1661,314,diag_char_family,Pronotum Sclerotized,A pair of sclerites completely covers the pronotum of larvae in this family.,0,0
+dc_to_family,1660,314,diag_char_family,Short Overall Length,Caddisflies of this family are very small - the larvae are less than ½ inch (6 mm) long.,0,0
+dc_to_family,1665,314,diag_char_family,​Flattened Case,"Larvae of this family construct a portable or stationary case of plant or mineral material and it is usually either compressed (flattened from sides) or depressed (flattened from top and bottom), giving it a purse-like appearance, rarely tubular.",0,0
+dc_to_family,1662,314,diag_char_family,​Metanotum Sclerotized,A pair of sclerites completely covers the metanotum of larvae in this family.,0,0
+dc_to_family,1663,314,diag_char_family,​No Ventral Abdominal Gills,Larvae of this family lack gills on the underside of their abdomens.,0,0
+dc_to_family,1664,314,diag_char_family,​Tiny Anal Claws,Anal prolegs usually not projecting and anal claws tiny.,0,0
+dc_to_family,1029,316,diag_char_family,Antenna Next To Eye,The antenna are small and are always situated directly next to the eye. This is the only caddisfly family with antenna in this location.,0,0
+dc_to_family,1030,318,diag_char_family,"""Long"" Antenna","This is the only caddisfly family where the larvae usually have “long” antenna. By long antenna we mean that they aren’t tiny little nubs we usually see on caddisflies, but more like short threads, easily visible in profile.",0,0
+dc_to_family,1611,323,diag_char_family,Mesonotum sclerotized,The mesonotum of larvae in this family is covered with a pair of sclerites.,0,0
+dc_to_family,1676,323,diag_char_family,"Tubular, Flanged Sand Case",Larvae of this family make a portable case of sand that is tubular but appears very flat with wide lateral flanges and anterodorsal cowel over larval head.  ,0,0
+dc_to_family,1674,323,diag_char_family,​Metanotum Mostly Membranous,"The metanotum has 0-1 pairs of small lateral sclerites, but is mostly membranous.",0,0
+dc_to_family,1675,323,diag_char_family,​Small Hind Leg Claws,Claws of hind legs much smaller than those of front and middle legs.,0,0
+dc_to_family,1611,325,diag_char_family,Mesonotum sclerotized,The mesonotum of larvae in this family is covered with a pair of sclerites.,0,0
+dc_to_family,1679,325,diag_char_family,Sturdy Sand Case,Larvae of this family make a sturdy portable case of coarse sand cemented with mortar-like bands of silk.,0,0
+dc_to_family,1678,325,diag_char_family,​Metanotum Usually with 4 Sclerites,"Larvae of Odontoceridae usually have one broad transverse anterior sclerite, one narrow transverse posterior sclerite, and one pair of lateral sclerites on the metanotum.  Rarely, the metanotum will have 3 pairs of small sclerites.",0,0
+dc_to_family,1677,325,diag_char_family,​Pronotum with Pointed Anterolateral Corners,"The pronotum of larvae in this family usually has strongly pointed anterolateral corners, giving larvae the appearance of having sharp shoulder pads.",0,0
+dc_to_family,1031,327,diag_char_family,T-Shaped Labrum,Labrum (upper lip) membranous and T-shaped. If you don't see the labrum it's becuase in preserved specimens it’s often sucked into mouth and hidden from view. All other families have a sclerotized easily visible labrum.,0,0
+dc_to_family,1642,330,diag_char_family,Membranous mesonotum,The mesonotum is entirely or mostly membranous in larvae of this family.,0,0
+dc_to_family,1643,330,diag_char_family,Membranous metanotum,The metanotum is entirely or mostly membranous in larvae of this family.,0,0
+dc_to_family,1704,330,diag_char_family,Setose Lateral Sclerites on Meso- and Metanota,Larvae in this family have on their mesonotum and metanotum a pair of lateral sclerites with many setae.,0,0
+dc_to_family,1646,330,diag_char_family,​Abdominal Segment IX with Small Sclerite,The top of the last abdominal segment (segment IX) has one small sclerite. ,0,0
+dc_to_family,1680,330,diag_char_family,​Mesonotum with 2 Pairs of Setae,Caddisfly larvae in this family have on their mesonotum 2 pairs of dorsomesal setae (hairs).,0,0
+dc_to_family,1681,330,diag_char_family,​Metanotum with 2 Pairs of Setae,Larvae in this family have on their metanotum 2 pairs of dorsomesal setae (hairs).,0,0
+dc_to_family,1683,330,diag_char_family,​Spiraling or Ringed Plant Case,Larvae of this family make a portable case of plant materials arranged in a spiral or in successive rings.,0,0
+dc_to_family,1682,330,diag_char_family,​Stiff Prosternal Horn,Stiff prosternal horn present between front legs.,0,0
+dc_to_family,1686,332,diag_char_family,Abdominal Segment IX Membranous,Top of last abdominal segment (segment IX) membranous.,0,0
+dc_to_family,1710,332,diag_char_family,Membranous Mesonotum,The mesonotum is membranous in larvae of this family.,0,0
+dc_to_family,1711,332,diag_char_family,Membranous Metanotum,The metanotum is membranous in larvae of this family.,0,0
+dc_to_family,1684,332,diag_char_family,Mesonotum with 3 Pairs of Setae,"Larvae in this family have 3 pairs of setae (hairs) on their mesonotum, with the posteromesal and/or lateral pair sometimes doubled. ",0,0
+dc_to_family,1685,332,diag_char_family,Metanotum with 3 Pairs of Setae,"Larvae in this family have 3 pairs of setae (hairs) on their mesonotum, with the posteromesal and/or lateral pair sometimes doubled. ",0,0
+dc_to_family,1687,332,diag_char_family,"​Long, Free Anal Prolegs",The anal prolegs of this family are long and freely movable.,0,0
+dc_to_family,1032,335,diag_char_family,Hatchet-shaped Foretrochantin,"The foretrochantin is a projecting sclerite (hard plate) at the base of each foreleg. This is the only family where the foretrochantin is hatched-shaped. Look from the ventral side, you may see the shape more clearly if the specimen is a bit tilted.",0,0
+dc_to_family,1043,338,diag_char_family,Anal Prolegs Free,"Anal prolegs (fleshy nubs at the end of th body with hooks on them) are free, not closely fused to the abdomen.",0,0
+dc_to_family,1044,338,diag_char_family,Free-living,Larvae are free-living (do not build a case or retreat) until pupation.,0,0
+dc_to_family,1041,338,diag_char_family,Meso- And Metanota Membranous.,"Meso- and metanota membranous. I.e. Dorsally, only the first thorasic segment is sclerotized (hardened), the rest of the thorax is membranous.",0,0
+dc_to_family,1042,338,diag_char_family,Sclerite On Segment IX,"The dorsal side of abdominal segment 9 has a sclerite (hardened plate or patch). Segment 9 is the last abdominal segment, at the end of the body.",0,0
+dc_to_family,1690,340,diag_char_family,"Curved, Smooth Sand Case","Larvae of this family create a portable case that is smooth, slightly curved, and made of fine sand.",0,0
+dc_to_family,1611,340,diag_char_family,Mesonotum sclerotized,The mesonotum of larvae in this family is covered with a pair of sclerites.,0,0
+dc_to_family,1688,340,diag_char_family,Metanotum Mostly Membranous,"Metanotum with 3 pairs of small sclerites, but mostly membranous.",0,0
+dc_to_family,1677,340,diag_char_family,​Pronotum with Pointed Anterolateral Corners,"The pronotum of larvae in this family usually has strongly pointed anterolateral corners, giving larvae the appearance of having sharp shoulder pads.",0,0
+dc_to_family,1689,340,diag_char_family,​Setose Anal Prolegs,Each anal proleg has a mesodorsal cluster of at least 30 setae.,0,0
+dc_to_family,1034,342,diag_char_family,Notched Mesonotum,Mesonotum notched medially along the anterior margin. I.e. the middle thoracic segment has 2 small incisions along the edge nearest the head.,0,0
+dc_to_family,1033,342,diag_char_family,Only Metanotum Membranous,"Pro- and mesonota are sclerotized, but the metanotum mostly membranous, with some small sclerites (i.e. the dorsal sides of the 1st two thoracic segments are hardened, but the 3rd is membranous).",0,0
+dc_to_family,1002,728,diag_char_family,5-Segmented Swimming Legs,"Long, slender swimming legs 5-segmented, excluding 2 claws. ",0,0
+dc_to_family,1003,728,diag_char_family,8-Segmented Abdomen,Abdomen with 8 segments.,0,0
+dc_to_family,1001,728,diag_char_family,Sickle-Shaped Mandibles,Sickle-shaped mandibles without mola (grinding surface). ,0,0
+dc_to_family,1005,732,diag_char_family,"Brown, Sclerotized, Spindle-Shaped Body","Body strongly sclerotized (hardened), dark brown or red-brown, roughly cylindrical or spindle-shaped,",0,0
+dc_to_family,1004,732,diag_char_family,Operculum,Segment 9 (posterior-most segment) with ventral lid-like flap (operculum) concealing thread-like gills and pair of hooks,0,0
+dc_to_family,1008,739,diag_char_family,4 Posterior Hooks,Abdominal segment 10 (posterior-most segment) with 4 stout hooks.,0,0
+dc_to_family,1006,739,diag_char_family,5-Segmented Legs + Claws,Legs 5-segmented plus 2 tarsal claws. ,0,0
+dc_to_family,1007,739,diag_char_family,Lateral Gills ,Abdominal segments 1–9 with lateral gills. ,0,0
+dc_to_family,1009,743,diag_char_family,5-Segmented Legs + Claw,Legs 5-segmented and each with single claw. ,0,0
+dc_to_family,1010,743,diag_char_family,Dorsal Projections,"Mature larvae usually with long, slender, stiff, needle-like dorsal projections from thoracic and abdominal segments",0,0
+dc_to_family,1123,747,diag_char_family,Flat Body,"The body is dorsoventrally flattened (flat like a hamburger, not like a taco). ",0,0
+dc_to_family,1124,747,diag_char_family,Shield-Like,The thoracic and abdominal tergites (dorsal hardened segmental plates) are expanded laterally as a thin shield covering the head and legs from above. This can make the animals resemble trilobites. This shape also helps them stick to rocks almost like a suction cup. ,0,0
+dc_to_family,1856,783,diag_char_family,3 or Less Antennal Segments,Antennae with 3 or fewer segments.,0,0
+dc_to_family,1807,783,diag_char_family,4-Segmented Legs,Legs each with 4 segments.,0,0
+dc_to_family,1815,783,diag_char_family,9-Segmented Abdomen,Abdomen with 9 segments.,0,0
+dc_to_family,1817,783,diag_char_family,Distinct Labrum,Distinct labrum present.,0,0
+dc_to_family,2219,783,diag_char_family,Operculum lacking,Lacking operculum on last segment. ,0,0
+dc_to_family,1816,783,diag_char_family,Posterior Gill Tufts,Anal region with tufts of gills.,0,0
+dc_to_genus,2172,5,diag_char_genus,Occipital Ridge,Ridge on the posterior end of the head,0,0
+dc_to_genus,40,7,diag_char_genus,Single Digitiform Coxal Gill,"Each coxa (most basal leg segment) with a single finger-like, segmented gill.",0,0
+dc_to_genus,29,19,diag_char_genus,Notched Frontoclypeus,"Frontoclypeus is usually notched, and usually with a scalloped appearance. In the rare case that the frontoclypeus is not notched, the intersegmental sclerites will be small. ",0,0
+dc_to_genus,30,19,diag_char_genus,Small Intersegmental Sclerites,"These sclerites are usually small in this genus. In the rare case that they are large, the frontoclypeus will be notched. Look for the pair of intersegmental sclerites underneath the intersegmental fold (“fat roll” between segments) on the ventral side between the first two sets of legs. Try gently arching the specimen’s back, and they should “pop” out.  ",0,0
+dc_to_genus,1036,32,diag_char_genus,Only 1 Genus,"There is only one genus in this family! If you've identified the family, you know the genus too.",0,0
+dc_to_genus,36,35,diag_char_genus,Tall Sclerite At Base Of Lateral Hump,"Abdominal segment I with one tall vertical tear-drop-shaped sclerite at posterior edge of base of each lateral hump, almost as tall as hump. The sclerite is not necessarily symmetrical, but is narrower at one end than the other, like a tear-drop. It may be light in color and hard to see, look for a shiny surface. ",0,0
+dc_to_genus,516,110,diag_char_genus,Gill Tufts Absent,Abdominal ventral gill tufts absent. ,0,0
+dc_to_genus,517,110,diag_char_genus,Short Respiratory Tubes,Respiratory tubes much shorter than anal prolegs.,0,0
+dc_to_genus,2187,120,diag_char_genus,Tomentum of tibia,"Conspicuous fringe of fine, dense hairs along tibia of foreleg",0,0
+dc_to_genus,2187,121,diag_char_genus,Tomentum of tibia,"Conspicuous fringe of fine, dense hairs along tibia of foreleg",0,0
+dc_to_genus,2187,122,diag_char_genus,Tomentum of tibia,"Conspicuous fringe of fine, dense hairs along tibia of foreleg",0,0
+dc_to_genus,2187,130,diag_char_genus,Tomentum of tibia,"Conspicuous fringe of fine, dense hairs along tibia of foreleg",0,0
+dc_to_genus,2187,132,diag_char_genus,Tomentum of tibia,"Conspicuous fringe of fine, dense hairs along tibia of foreleg",0,0
+dc_to_genus,2187,134,diag_char_genus,Tomentum of tibia,"Conspicuous fringe of fine, dense hairs along tibia of foreleg",0,0
+dc_to_genus,2194,136,diag_char_genus,Scutellum,"posterior shield-like plate of thorax.  In Coleoptera, the scutellum is either exposed or concealed by the elytra.",0,0
+dc_to_genus,2194,138,diag_char_genus,Scutellum,"posterior shield-like plate of thorax.  In Coleoptera, the scutellum is either exposed or concealed by the elytra.",0,0
+dc_to_genus,2197,142,diag_char_genus,Abdominal sternum 6 ,the 6th abdominal segment,0,0
+dc_to_genus,2199,142,diag_char_genus,Pronotum with paired blotches,Two black paired blotches on lower margin of pronotum,0,0
+dc_to_genus,2212,176,diag_char_genus,Creeping Welts,"Slightly raised, often darkened structure on diptera larvae",0,0
+dc_to_genus,1036,196,diag_char_genus,Only 1 Genus,"There is only one genus in this family! If you've identified the family, you know the genus too.",0,0
+dc_to_genus,2236,198,diag_char_genus,Procoxae Gill,Simple gill on the coxae of the prothorax,0,0
+dc_to_genus,2167,207,diag_char_genus,Forefemur,Femur of proleg,0,0
+dc_to_genus,2167,208,diag_char_genus,Forefemur,Femur of proleg,0,0
+dc_to_genus,2167,209,diag_char_genus,Forefemur,Femur of proleg,0,0
+dc_to_genus,2167,210,diag_char_genus,Forefemur,Femur of proleg,0,0
+dc_to_genus,2184,210,diag_char_genus,Operculate gill,Large gill that covers remaining gills,0,0
+dc_to_genus,2167,211,diag_char_genus,Forefemur,Femur of proleg,0,0
+dc_to_genus,488,219,diag_char_genus,Gills On 1–6 Truncate,"Gills on abdominal segments 1–6 have truncate distal ends; the ends are often blunt or squared off, but always with at least part of apical edge straight.",0,0
+dc_to_genus,489,219,diag_char_genus,Gills On 7 Slender,"Gills on abdominal segment 7 are reduced to slender filaments, much skinnier than gills on preceeding segments.",0,0
+dc_to_genus,1036,243,diag_char_genus,Only 1 Genus,"There is only one genus in this family! If you've identified the family, you know the genus too.",0,0
+dc_to_genus,2172,273,diag_char_genus,Occipital Ridge,Ridge on the posterior end of the head,0,0
+dc_to_genus,2172,274,diag_char_genus,Occipital Ridge,Ridge on the posterior end of the head,0,0
+dc_to_genus,2172,275,diag_char_genus,Occipital Ridge,Ridge on the posterior end of the head,0,0
+dc_to_genus,2172,276,diag_char_genus,Occipital Ridge,Ridge on the posterior end of the head,0,0
+dc_to_genus,2170,284,diag_char_genus,Cervical Gills,Gills filaments located in the region of the neck,0,0
+dc_to_genus,1036,307,diag_char_genus,Only 1 Genus,"There is only one genus in this family! If you've identified the family, you know the genus too.",0,0
+dc_to_genus,1036,339,diag_char_genus,Only 1 Genus,"There is only one genus in this family! If you've identified the family, you know the genus too.",0,0
+dc_to_genus,2223,2083,diag_char_genus,Operculum,Covering over the entrance to shell,0,0
+dc_to_order,12,3,diag_char_order,Two Tails,Always only two tails (cerci).,0,0
+dc_to_order,10,3,diag_char_order,Two Tarsal Claws,Always with two tarsal claws per leg.,0,0
+dc_to_order,15,14,diag_char_order,Prolegs With Single Hook,"Larvae with pair of anal prolegs (fleshy nubs), each with single hook, located on last abdominal segment.",0,0
+dc_to_order,2018,20,diag_char_order,Abdominal Gills,Gills on abdomen.,0,0
+dc_to_order,22,20,diag_char_order,Single Tarsal Claw,Always with only one tarsal claw per leg.,0,0
+dc_to_order,21,20,diag_char_order,Usually 3 Tails,"Usually with three tails (two cerci and one caudal filament, but sometimes without caudal filament).",0,0
+dc_to_order,945,52,diag_char_order,Elytra,Adults with elytra (hardened forewings covering the membranous hind wings).,0,0
+dc_to_order,2218,52,diag_char_order,Three Pairs of Legs on Thorax,Three pairs of segmented legs on the thorax.  One pair per segment. ,0,1
+dc_to_order,944,53,diag_char_order,Legs Absent,"Segmented legs absent from thorax, but sometimes with prolegs (fleshy nubs used for movement).",0,0
+dc_to_order,472,54,diag_char_order,Hemelytra,Adults with hemelytra (forewings typically leathery or hard basally and translucent and flexible apically).,0,0
+dc_to_order,468,54,diag_char_order,Needle-like Beak,Larvae and adult with needle-like or straw-like beak (except for Corixidae which has sieve-like mouth parts).,0,0
+dc_to_order,942,55,diag_char_order,Abdominal Prolegs,Underside of abdomen with several pairs of prolegs (fleshy nubs) with tiny hooks.,0,0
+dc_to_order,943,55,diag_char_order,Short Legs,"Short segmented legs present on thorax, not as long as abdomen. ",0,0
+dc_to_order,512,56,diag_char_order,1 Tail or 2 Prolegs ,"Abdominal segment 9 (the last segment) with either one tail or pair of anal prolegs (fleshy nubs), each with two hooks.",0,0
+dc_to_order,513,56,diag_char_order,Lateral Filaments,Seven or eight pairs of filaments or gills laterally on abdomen (slender conical appendages on sides of abdomen).,0,0
+dc_to_order,2087,57,diag_char_order,Abdomen with 5 Sharp Stiff Points or 3 Gills,"End of abdomen has either 5 sharp stiff points (suborder Anisoptera, or dragonflies) or 3 long flat gills (suborder Zygoptera, or damselflies).",0,0
+dc_to_order,933,57,diag_char_order,Labial Mask,"Nymphs with mask-like labium (lower lip) covering the chewing mouth parts. This is an extendable arm-like appendage used to capture prey. It is always visible ventrally, but may be visible dorsally if it is extended.",0,0
+dc_to_order,2086,57,diag_char_order,Two Pairs of Wing Pads,Thorax with two pairs of wing pads.,0,0
+dc_to_order,1786,60,diag_char_order,1 Pair of Antennae,One pair of antennae.,0,0
+dc_to_order,1774,60,diag_char_order,"3 Pairs of Jointed, Unbranched Legs",Three pairs of jointed legs that are unbranched.,0,0
+dc_to_order,1772,60,diag_char_order,Body Hardened on Outside,Body hardened on outside.,0,0
+dc_to_order,1781,60,diag_char_order,Carapace Absent,Carapace (hard upper shell) absent.,0,0
+dc_to_order,1831,60,diag_char_order,Furcula,"No telson, but slender furcula at end of abdomen used for jumping.",0,0
+dc_to_order,1828,60,diag_char_order,Oval Body,Body oval.,0,0
+dc_to_order,1857,64,diag_char_order,Anterior Pseudocardinal Teeth,Anterior pseudocardinal tooth present on valves.,0,0
+dc_to_order,1769,64,diag_char_order,Body Soft,Soft-bodied.,0,0
+dc_to_order,1777,64,diag_char_order,Covered by 2 Shells,Viscera covered by two hard calcareous shells.,0,0
+dc_to_order,1770,64,diag_char_order,No Legs,Without legs.,0,0
+dc_to_order,2006,64,diag_char_order,Posterior Lateral Teeth on Valves,Posterior lateral tooth present on valves.,0,0
+dc_to_order,1777,67,diag_char_order,Covered by 2 Shells,Viscera covered by two hard calcareous shells.,0,0
+dc_to_order,1770,67,diag_char_order,No Legs,Without legs.,0,0
+dc_to_order,1858,67,diag_char_order,Teeth on Inside of Valves,Anterior and posterior lateral teeth present on inside of valves.,0,0
+dc_to_order,1775,75,diag_char_order,2 Pairs of Antennae,Two pairs of antennae.,0,0
+dc_to_order,1772,75,diag_char_order,Body Hardened on Outside,Body hardened on outside.,0,0
+dc_to_order,1781,75,diag_char_order,Carapace Absent,Carapace (hard upper shell) absent.,0,0
+dc_to_order,1784,75,diag_char_order,Compressed Body,Body usually laterally flattened (compressed).,0,0
+dc_to_order,1830,75,diag_char_order,Narrow Telson,"Telson projecting from end of abdomen, narrower than body.",0,0
+dc_to_order,1773,75,diag_char_order,"Over 3 Pairs of Jointed, Unbranched Legs",More than 3 pairs of jointed legs that are unbranched.,0,0
+dc_to_order,1769,81,diag_char_order,Body Soft,Soft-bodied.,0,0
+dc_to_order,1770,81,diag_char_order,No Legs,Without legs.,0,0
+dc_to_order,1782,81,diag_char_order,Operculum Absent,Operculum absent.,0,0
+dc_to_order,1785,81,diag_char_order,Single Shell,"Viscera (internal organs) covered by single, hard calcareous shell.",0,0
+dc_to_order,1778,95,diag_char_order,32 Segments,Segmented with 32 true segments.,0,0
+dc_to_order,1783,95,diag_char_order,Anterior and Posterior Suckers,With anterior and posterior suckers.,0,0
+dc_to_order,1769,95,diag_char_order,Body Soft,Soft-bodied.,0,0
+dc_to_order,1834,95,diag_char_order,Mouth on Anterior Sucker,Mouth a small pore on ventral surface of anterior sucker.,0,0
+dc_to_order,1771,95,diag_char_order,No Antennae,No antennae.,0,0
+dc_to_order,1770,95,diag_char_order,No Legs,Without legs.,0,0
+dc_to_order,1776,95,diag_char_order,Seemingly Headless,Seemingly without a head.,0,0
+dc_to_order,1779,95,diag_char_order,Segments Appearing Subdivided,Segments each superficially subdivided into 3-16 annuli.,0,0
+dc_to_order,1775,106,diag_char_order,2 Pairs of Antennae,Two pairs of antennae.,0,0
+dc_to_order,1772,106,diag_char_order,Body Hardened on Outside,Body hardened on outside.,0,0
+dc_to_order,1781,106,diag_char_order,Carapace Absent,Carapace (hard upper shell) absent.,0,0
+dc_to_order,1833,106,diag_char_order,Flattened Body,Body dorsoventrally flattened (depressed) or subcylindrical.,0,0
+dc_to_order,1773,106,diag_char_order,"Over 3 Pairs of Jointed, Unbranched Legs",More than 3 pairs of jointed legs that are unbranched.,0,0
+dc_to_order,1832,106,diag_char_order,Telson as Wide as Body,Telson fused with last abdominal segment and as wide as body.,0,0
+dc_to_order,948,727,diag_char_order,Eye Spots,"Eye spots usually present, but compound eyes absent.",0,0
+dc_to_order,946,727,diag_char_order,Lateral Gills USUALLY Absent,"Usually without lateral abdominal gills, except for Gyrinidae (4 hooks clustered on segment 10).",0,0
+dc_to_order,947,727,diag_char_order,USUALLY 4-5-Segmented Legs,"Thoracic legs usually with 4 or 5 segments and with 1 or 2 claws; if without legs, head distinctly sclerotized (hardened) and posterior body (thorax and abdomen) simple, without gills, hair brushes, suckers, or breathing tube. ",0,0
+dc_to_order,1775,1602,diag_char_order,2 Pairs of Antennae,Two pairs of antennae.,0,0
+dc_to_order,1788,1602,diag_char_order,4 Pairs of Jointed Walking Legs,Four pairs of jointed walking legs.,0,0
+dc_to_order,1772,1602,diag_char_order,Body Hardened on Outside,Body hardened on outside.,0,0
+dc_to_order,1780,1602,diag_char_order,Carapace Present,Carapace (hard upper shell) present.,0,0
+dc_to_order,1787,1602,diag_char_order,Pair of Front Claws,Pair of front claws.,0,0
