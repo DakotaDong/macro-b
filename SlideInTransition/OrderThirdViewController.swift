@@ -14,25 +14,20 @@ struct Character {
 }
  
 class OrderThirdViewController: UIViewController {
+  
+  var order: Order!
+  var db:DBHelper = DBHelper()
+  var orderDiagCharacters:[OrderDiagCharacter] = []
+  
   @IBOutlet weak var characterTableView: UITableView!
   @IBOutlet weak var characterTableHeight: NSLayoutConstraint!
-  
-  let characters = [
-    Character(name:"Single Tarsal Claw", description: "Always with only one tarsal claw per leg."),
-    Character(name:"Abnormal Gills", description: "Gills on abdomen."),
-    Character(name:"Abnormal Gills", description: "Gills on abdomen."),
-    Character(name:"Abnormal Gills", description: "Gills on abdomen."),
-    Character(name:"Abnormal Gills", description: "Gills on abdomen."),
-    Character(name:"Abnormal Gills", description: "Gills on abdomen."),
-    Character(name:"Abnormal Gills", description: "Gills on abdomen."),
-    Character(name:"Abnormal Gills", description: "Gills on abdomen."),
-    Character(name:"Abnormal Gills", description: "Gills on abdomen."),
-    Character(name:"Abnormal Gills", description: "Gills on abdomen.")
-  ]
   
   override func viewDidLoad() {
     super.viewDidLoad()
     self.characterTableView.allowsSelection = false
+    if let order_content = order {
+      orderDiagCharacters = db.readOrderDiagCharacterByOrder(orderId: order_content.id)
+    }
 //    self.view.backgroundColor = .red
 
   }
@@ -61,7 +56,7 @@ class OrderThirdViewController: UIViewController {
 extension OrderThirdViewController:UITableViewDataSource, UITableViewDelegate {
 
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    let size = characters.count
+    let size = orderDiagCharacters.count
     self.characterTableHeight.constant = CGFloat(size) * UITableViewCell().frame.size.height
     return size
   }
@@ -69,7 +64,7 @@ extension OrderThirdViewController:UITableViewDataSource, UITableViewDelegate {
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: "characterTableViewCell", for: indexPath) as! characterTableViewCell
 
-    let character = characters[indexPath.row]
+    let character = orderDiagCharacters[indexPath.row]
     cell.characterName?.text = character.name
     cell.characterDescription?.text = character.description
 

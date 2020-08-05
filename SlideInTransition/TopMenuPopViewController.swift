@@ -12,10 +12,13 @@ class TopMenuPopViewController: UIViewController {
   
     @IBOutlet weak var collectionView: UICollectionView!
   
-    var orders = Order.fetchOrders()
+    var db:DBHelper = DBHelper()
+    var orders:[Order] = []
+  
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        orders = db.readOrders()
         //self.collectionView.dataSource = self
 
         // Do any additional setup after loading the view.

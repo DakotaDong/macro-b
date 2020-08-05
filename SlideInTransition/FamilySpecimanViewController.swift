@@ -13,11 +13,11 @@ class FamilySpecimanViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
   
     var families = [
-        Family(familyLabel: "Heterocloeon", familyImage: UIImage(named: "alderflier")!),
-        Family(familyLabel: "Baetis", familyImage: UIImage(named: "alderflier")!)
+        Family(id:1, orderId:1, commonName: "Test Family Common 1", scientificName: "Test Family Sci 1", pollution: "ppp", description: "ddddd"),
+        Family(id:2, orderId:1, commonName: "Test Family Common 2", scientificName: "Test Family Sci 2", pollution: "ppp", description: "ddddd")
     ]
+  
     override func viewDidLoad() {
-        print("sssssss")
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -28,7 +28,6 @@ class FamilySpecimanViewController: UIViewController {
 extension FamilySpecimanViewController: UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        print(families.count)
         return families.count
     }
     
@@ -36,14 +35,13 @@ extension FamilySpecimanViewController: UICollectionViewDelegate, UICollectionVi
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FamilySpecimenCollectionViewCell", for: indexPath) as!
             FamilySpecimanCollectionViewCell
         
-        cell.familyImage.image = families[indexPath.row].familyImage
-        cell.familyLabel.text = families[indexPath.row].familyLabel
+        cell.familyImage.image = UIImage(named: "alderflier")
+        cell.familyLabel.text = families[indexPath.row].commonName
         
         return cell
     }
   
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-         print("!!!!!!!!!!!!!!!!!!")
          return CGSize(width: 256, height: 379)
      }
     

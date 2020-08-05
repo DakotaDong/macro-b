@@ -10,11 +10,11 @@ import UIKit
 
 class OrderFirstTableViewCell: UITableViewCell {
   
-  var fakeFamilyPictures = [
-    "attenella",
-    "baetis-ventral",
-    "baetis"
-  ]
+  var db:DBHelper = DBHelper()
+  var familyId:Int!
+  // FIX THIS!!!
+  var genera:[Genus] = []
+  
 
   @IBOutlet weak var scientificName: UILabel!
   @IBOutlet weak var commonName: UILabel!
@@ -27,7 +27,7 @@ class OrderFirstTableViewCell: UITableViewCell {
         collectionView.dataSource = self
         collectionView.backgroundColor = UIColor(red: 0.90, green: 0.90, blue: 0.90, alpha: 1.00)
         
-    }
+        }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
@@ -40,13 +40,17 @@ class OrderFirstTableViewCell: UITableViewCell {
 
 extension OrderFirstTableViewCell: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-      return fakeFamilyPictures.count
+      print("======!!!!=======")
+      print(genera.count)
+      return genera.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)as! familyCollectionViewCell
-        let fakeImage = fakeFamilyPictures[indexPath.row]
-      cell.image.image = loadImage(fakeImage)
+        /// TODO: change this when the pictures are loaded!
+        let fakeImage = UIImage(named: "aquatic")
+        cell.name.text = genera[indexPath.row].name
+        cell.image.image = fakeImage
         return cell
     }
     
@@ -59,9 +63,16 @@ extension OrderFirstTableViewCell: UICollectionViewDataSource, UICollectionViewD
 
 class familyCollectionViewCell: UICollectionViewCell {
 
+
   @IBOutlet weak var image: UIImageView!
+  @IBOutlet weak var name: UILabel!
   
-}
+  override func awakeFromNib() {
+    super.awakeFromNib()
+    
+
+  
+  }
 
 func loadImage(_ image_name:String?) -> UIImage{
   let fm = FileManager.default
@@ -80,4 +91,5 @@ func loadImage(_ image_name:String?) -> UIImage{
     }
   }
   return UIImage(named: "aquatic")!
+}
 }

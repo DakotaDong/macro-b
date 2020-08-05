@@ -336,6 +336,10 @@
                         <viewLayoutGuide key="safeArea" id="axf-7L-SJG"/>
                     </view>
                     <navigationItem key="navigationItem" id="Qkj-vs-o2w"/>
+                    <connections>
+                        <outlet property="commonName" destination="ITE-uS-V9e" id="itS-5o-Ytz"/>
+                        <outlet property="scientificName" destination="yg3-ZH-gxK" id="SkK-Ix-4mw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yzN-HM-Iym" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -404,6 +408,7 @@
                                                             <size key="customSize" width="154" height="172"/>
                                                             <connections>
                                                                 <outlet property="image" destination="9WM-R6-m3v" id="9Bf-i8-59E"/>
+                                                                <outlet property="name" destination="Imx-LW-xhT" id="jPC-eq-Z1i"/>
                                                             </connections>
                                                         </collectionViewCell>
                                                     </cells>
@@ -528,6 +533,7 @@
                                             <constraint firstItem="HsO-CW-aVT" firstAttribute="top" secondItem="4tQ-vw-zvP" secondAttribute="bottom" constant="19" id="OoA-Nx-vTl"/>
                                             <constraint firstItem="Aut-oq-N1D" firstAttribute="leading" secondItem="TCf-Ta-XaB" secondAttribute="leading" constant="33" id="VRw-nM-oig"/>
                                             <constraint firstItem="fJV-7C-u9C" firstAttribute="top" secondItem="HsO-CW-aVT" secondAttribute="bottom" constant="12" id="Xlb-og-PgW"/>
+                                            <constraint firstItem="Stm-Yi-mQV" firstAttribute="top" secondItem="TCf-Ta-XaB" secondAttribute="top" id="b6W-qD-UbL"/>
                                             <constraint firstAttribute="bottom" secondItem="fJV-7C-u9C" secondAttribute="bottom" constant="107" id="eC7-1l-pmT"/>
                                             <constraint firstAttribute="trailing" secondItem="Stm-Yi-mQV" secondAttribute="trailing" constant="123" id="eLu-rE-50O"/>
                                             <constraint firstAttribute="trailing" secondItem="fJV-7C-u9C" secondAttribute="trailing" constant="34" id="oDp-YA-350"/>
@@ -562,9 +568,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="TDd-cH-iss"/>
                     <connections>
-                        <outlet property="familyImage" destination="Stm-Yi-mQV" id="6FL-37-CqJ"/>
                         <outlet property="familyIntro" destination="k2v-s8-7Gi" id="5Qu-Di-T2M"/>
                         <outlet property="history" destination="fJV-7C-u9C" id="BlD-Fp-56p"/>
+                        <outlet property="illustrationImage" destination="Stm-Yi-mQV" id="mnB-oX-Uu2"/>
                         <outlet property="imageTwo" destination="4tQ-vw-zvP" id="QZd-MU-MVc"/>
                         <outlet property="pollutionIntro" destination="k2v-s8-7Gi" id="09I-h0-4cn"/>
                         <outlet property="pollutionType" destination="gFQ-hk-khW" id="eUX-Ue-WnN"/>

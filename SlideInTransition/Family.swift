@@ -10,21 +10,21 @@ import UIKit
 
 class Family
 {
-    var familyLabel = ""
-    var familyImage: UIImage
+    var id:Int
+    var orderId:Int
+    var commonName = ""
+    var scientificName = ""
+    var pollution = ""
+    var description = ""
     
-    init(familyLabel: String, familyImage: UIImage)
+  init(id:Int, orderId:Int, commonName: String, scientificName: String, pollution: String, description: String)
     {
-        self.familyLabel = familyLabel
-        self.familyImage = familyImage
-    }
-    
-    static func fetchFamilies() -> [Family]
-    {
-        return [
-            Family(familyLabel: "Heterocloeon", familyImage: UIImage(named: "alderflier")!),
-            Family(familyLabel: "Baetis", familyImage: UIImage(named: "alderflier")!),
-        ]
+        self.id = id
+        self.orderId = orderId
+        self.commonName = commonName
+        self.scientificName = scientificName
+        self.pollution = pollution
+        self.description = description
     }
 
 }

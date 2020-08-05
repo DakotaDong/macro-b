@@ -15,9 +15,9 @@ struct FamilyA {
 
 class OrderFirstViewController: UIViewController {
   
-    
-    var families = [
-      FamilyA(scientificName: "Ameletidae", commonName: "Comb-mouthed Minnow Mayflies")]
+    var db:DBHelper = DBHelper()
+    var families:[Family] = []
+    var order: Order!
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -35,6 +35,9 @@ class OrderFirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let order_content = order{
+          families = db.readFamilyByOrder(orderId:order_content.id)
+        }
         // Do any additional setup after loading the view.
     }
     
@@ -53,6 +56,7 @@ extension OrderFirstViewController: UITableViewDelegate, UITableViewDataSource {
         let family = families[indexPath.row]
         cell.scientificName.text = family.scientificName
         cell.commonName.text = family.commonName
+        cell.familyId = family.id
         
         // test
         //for table view border

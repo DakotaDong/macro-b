@@ -11,7 +11,8 @@ import UIKit
 class HomeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
 {
     @IBOutlet weak var collectionView: UICollectionView!
-    //var orders = Order.fetchOrders()
+  
+    /// TODO: optimize this by reading DB when app is launched, instead of so many times
     var db:DBHelper = DBHelper()
     var orders:[Order] = []
   
@@ -23,7 +24,6 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         collectionView.delegate = self
         collectionView.dataSource = self
         key.layer.cornerRadius = 10
@@ -32,11 +32,8 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         key.layer.masksToBounds = false
         key.layer.shadowRadius = 2.0
         key.layer.shadowOpacity = 0.5
-      
-        
-        db.insert(id:1, commonName: "Adult Beetles", scientificName: "Coleopteta", featuredImage:  "adult-beetles", pollution: "Sensitive", orderIntro: "Surprise steepest recurred landlord mr wandered amounted of. Continuing devonshire but considered its. Rose past oh shew roof is song neat. Do depend better praise do friend garden an wonder to. Intention age nay otherwise but breakfast. Around garden beyond to extent by.", lifeHistory: "life history place holder")
-        
-        orders = db.read()
+    
+        orders = db.readOrders()
         
     }
     
@@ -94,11 +91,11 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     
-    //doesn't work
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let vc =
             storyboard?
                 .instantiateViewController(withIdentifier: "OrderViewController") as? OrderViewController
+        vc?.order = orders[indexPath.item]
         self.navigationController?.pushViewController(vc!, animated: true)
     }
     

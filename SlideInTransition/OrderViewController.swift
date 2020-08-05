@@ -15,6 +15,15 @@ class OrderViewController: UIViewController, UIPageViewControllerDataSource, UIP
     private var arrVC:[UIViewController] = []
     private var currentPage: Int!
   
+    @IBOutlet weak var scientificName: UILabel!
+    @IBOutlet weak var commonName: UILabel!
+  
+    var db:DBHelper = DBHelper()
+    var orders:[Order] = []
+  
+    var order: Order!
+  
+  
     // ======================== Top menu variables ========================
     let topMenuButtonCollapse = UIButton(frame: CGRect(x: 0, y: 0, width: 130, height: 30))
     let topMenuButtonExpand = UIButton(frame: CGRect(x: 0, y: 0, width: 130, height: 30))
@@ -26,7 +35,6 @@ class OrderViewController: UIViewController, UIPageViewControllerDataSource, UIP
                         "Stoneflies", "Caddisflies"]
     var topView: UIView?
   
-    var orders = Order.fetchOrders()
      // ======================== Top menu variables ========================
     
     /// Instantiate ViewControllers Here With Lazy Keyword
@@ -37,7 +45,7 @@ class OrderViewController: UIViewController, UIPageViewControllerDataSource, UIP
         
         var viewController = storyboard?.instantiateViewController(withIdentifier: "OrderFirstViewController") as! OrderFirstViewController
         //self.addViewControllerAsChildViewController(childViewController: viewController)
-        
+        viewController.order = order
         return viewController
     }()
     
@@ -46,6 +54,7 @@ class OrderViewController: UIViewController, UIPageViewControllerDataSource, UIP
     lazy var vc2: OrderSecondViewController = {
         
         var viewController = storyboard?.instantiateViewController(withIdentifier: "OrderSecondViewController") as! OrderSecondViewController
+        viewController.order = order
         //self.addViewControllerAsChildViewController(childViewController: viewController)
         
         return viewController
@@ -57,12 +66,12 @@ class OrderViewController: UIViewController, UIPageViewControllerDataSource, UIP
         
         var viewController = storyboard?.instantiateViewController(withIdentifier: "OrderThirdViewController") as! OrderThirdViewController
         //self.addViewControllerAsChildViewController(childViewController: viewController)
+        viewController.order = order
         return viewController
     }()
   
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.navigationController?.setNavigationBarHidden(true, animated: true)
       
         // Top Menu Setup
         self.topMenuButtonExpand.setTitle("Ephemeroptera",for: .normal)
@@ -72,7 +81,12 @@ class OrderViewController: UIViewController, UIPageViewControllerDataSource, UIP
         self.topMenuButtonExpand.setTitleColor(UIColor.black,for: .normal)
         self.topMenuButtonExpand.addTarget(self, action: #selector(showTopMenuPop(_:)),for: .touchUpInside)
         self.navigationItem.titleView = topMenuButtonExpand
-      
+          
+        orders = db.readOrders()
+        if let order_content = order {
+          scientificName.text = order_content.scientificName
+          commonName.text = order_content.commonName
+        }
         
         ssss()
         currentPage = 0
@@ -81,6 +95,7 @@ class OrderViewController: UIViewController, UIPageViewControllerDataSource, UIP
         arrVC.append(vc1)
         arrVC.append(vc2)
         arrVC.append(vc3)
+      
 
         // Do any additional setup after loading the view.
 //        familyIntro.lineBreakMode = .byWordWrapping
