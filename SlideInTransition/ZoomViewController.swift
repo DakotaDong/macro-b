@@ -23,10 +23,10 @@ class ZoomViewController: UIViewController {
         zoomScroll.delegate = self
     }
     @IBAction func clickedVentralBtnAction(sender: UIButton) {
-        zoomImage.image = UIImage(named: "baetis-ventral")
+        zoomImage.image = UIImage(named: "aquatic")
     }
     @IBAction func clickedDorsalBtnAction(sender: UIButton) {
-        zoomImage.image = UIImage(named: "baetis")
+        zoomImage.image = UIImage(named: "aquatic")
     }
 
 }

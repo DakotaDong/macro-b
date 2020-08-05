@@ -35,7 +35,7 @@ class OrderFirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let order_content = order{
+        if let order_content = order {
           families = db.readFamilyByOrder(orderId:order_content.id)
         }
         // Do any additional setup after loading the view.
@@ -53,11 +53,12 @@ extension OrderFirstViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "OrderFirstTableViewCell", for: indexPath) as? OrderFirstTableViewCell else {fatalError("Unable to create OrderFirstTableViewCell")}
+      
         let family = families[indexPath.row]
         cell.scientificName.text = family.scientificName
         cell.commonName.text = family.commonName
-        cell.familyId = family.id
-        
+//        cell.familyId = family.id
+        cell.UpdateViews(familyId:family.id)
         // test
         //for table view border
 //        cell.layer.borderWidth = 2.0
@@ -73,6 +74,14 @@ extension OrderFirstViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc =
+            storyboard?
+                .instantiateViewController(withIdentifier: "FamilySpecimanViewController") as? FamilySpecimanViewController
+        vc?.family = families[indexPath.row]
+        self.navigationController?.pushViewController(vc!, animated: true)
+    }
+  
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 278
     }

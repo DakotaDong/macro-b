@@ -12,7 +12,6 @@ class OrderFirstTableViewCell: UITableViewCell {
   
   var db:DBHelper = DBHelper()
   var familyId:Int!
-  // FIX THIS!!!
   var genera:[Genus] = []
   
 
@@ -21,13 +20,25 @@ class OrderFirstTableViewCell: UITableViewCell {
   
   @IBOutlet weak var collectionView: UICollectionView!
     override func awakeFromNib() {
+        
         super.awakeFromNib()
         // Initialization code
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.backgroundColor = UIColor(red: 0.90, green: 0.90, blue: 0.90, alpha: 1.00)
+//        if let familyID = familyId {
+//          genera = db.readGenusByFamily(familyId: familyID)
+//          print("AAAAAA")
+//          print(genera)
+//          print(familyID)
+//        }
         
-        }
+    }
+  
+    func UpdateViews(familyId:Int){
+      print("PPPPP",scientificName.text,familyId)
+      genera = db.readGenusByFamily(familyId: familyId)
+    }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
@@ -39,9 +50,8 @@ class OrderFirstTableViewCell: UITableViewCell {
 
 
 extension OrderFirstTableViewCell: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+  
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-      print("======!!!!=======")
-      print(genera.count)
       return genera.count
     }
     
@@ -51,11 +61,12 @@ extension OrderFirstTableViewCell: UICollectionViewDataSource, UICollectionViewD
         let fakeImage = UIImage(named: "aquatic")
         cell.name.text = genera[indexPath.row].name
         cell.image.image = fakeImage
+      
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 136, height: 256)
+        return CGSize(width: 100, height: 130)
     }
     
     

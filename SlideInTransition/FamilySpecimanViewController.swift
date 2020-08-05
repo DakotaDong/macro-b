@@ -9,16 +9,19 @@
 import UIKit
 
 class FamilySpecimanViewController: UIViewController {
-
-    @IBOutlet weak var collectionView: UICollectionView!
   
-    var families = [
-        Family(id:1, orderId:1, commonName: "Test Family Common 1", scientificName: "Test Family Sci 1", pollution: "ppp", description: "ddddd"),
-        Family(id:2, orderId:1, commonName: "Test Family Common 2", scientificName: "Test Family Sci 2", pollution: "ppp", description: "ddddd")
-    ]
+    var db:DBHelper = DBHelper()
+    var genera:[Genus] = []
+  
+    var family: Family!
+    
+    @IBOutlet weak var collectionView: UICollectionView!
   
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let family_content = family {
+          genera = db.readGenusByFamily(familyId: family_content.id)
+        }
 
         // Do any additional setup after loading the view.
     }
@@ -28,15 +31,15 @@ class FamilySpecimanViewController: UIViewController {
 extension FamilySpecimanViewController: UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return families.count
+        return genera.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FamilySpecimenCollectionViewCell", for: indexPath) as!
             FamilySpecimanCollectionViewCell
-        
-        cell.familyImage.image = UIImage(named: "alderflier")
-        cell.familyLabel.text = families[indexPath.row].commonName
+        let genus = genera[indexPath.row]
+        cell.familyImage.image = UIImage(named: "aquatic") /// TODO: FIX THIS
+        cell.familyLabel.text = genus.name
         
         return cell
     }
@@ -44,11 +47,5 @@ extension FamilySpecimanViewController: UICollectionViewDelegate, UICollectionVi
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
          return CGSize(width: 256, height: 379)
      }
-    
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-//        let flowayout = collectionViewLayout as? UICollectionViewFlowLayout
-//        let space: CGFloat = (flowayout?.minimumInteritemSpacing ?? 0.0) + (flowayout?.sectionInset.left ?? 0.0) + (flowayout?.sectionInset.right ?? 0.0)
-//        let size:CGFloat = (collectionView.frame.size.width - space) / 2.0
-//        return CGSize(width: size, height: size)
-//    }
+
 }
