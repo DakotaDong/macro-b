@@ -22,6 +22,7 @@ class OrderCollectionViewCell: UICollectionViewCell
     
     func updateUI() {
         if let order = order {
+            print("CCCC",order.commonName,order.scientificName,order.featuredImage)
             featuredIamgeView.image = UIImage(named: order.featuredImage)
             ordersTitleLabel.text = order.commonName
             ordersSubTitleLabel.text = order.scientificName

@@ -74,7 +74,6 @@ class OrderViewController: UIViewController, UIPageViewControllerDataSource, UIP
         super.viewDidLoad()
       
         // Top Menu Setup
-        self.topMenuButtonExpand.setTitle("Ephemeroptera",for: .normal)
         self.topMenuButtonExpand.setImage(UIImage(named:"expand-arrow"), for: .normal)
         self.topMenuButtonExpand.imageView?.contentMode = .scaleAspectFit
         self.topMenuButtonExpand.imageEdgeInsets = UIEdgeInsets(top: 0, left: 160, bottom: 0, right: 0)
@@ -86,6 +85,7 @@ class OrderViewController: UIViewController, UIPageViewControllerDataSource, UIP
         if let order_content = order {
           scientificName.text = order_content.scientificName
           commonName.text = order_content.commonName
+          self.topMenuButtonExpand.setTitle(order_content.scientificName,for: .normal)
         }
         
         ssss()

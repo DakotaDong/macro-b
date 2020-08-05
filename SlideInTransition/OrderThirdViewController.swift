@@ -18,6 +18,7 @@ class OrderThirdViewController: UIViewController {
   var order: Order!
   var db:DBHelper = DBHelper()
   var orderDiagCharacters:[OrderDiagCharacter] = []
+  var orderName = ""
   
   @IBOutlet weak var characterTableView: UITableView!
   @IBOutlet weak var characterTableHeight: NSLayoutConstraint!
@@ -27,6 +28,7 @@ class OrderThirdViewController: UIViewController {
     self.characterTableView.allowsSelection = false
     if let order_content = order {
       orderDiagCharacters = db.readOrderDiagCharacterByOrder(orderId: order_content.id)
+      orderName = order_content.scientificName
     }
 //    self.view.backgroundColor = .red
 
@@ -67,13 +69,11 @@ extension OrderThirdViewController:UITableViewDataSource, UITableViewDelegate {
     let character = orderDiagCharacters[indexPath.row]
     cell.characterName?.text = character.name
     cell.characterDescription?.text = character.description
-
+    
+    cell.UpdateViews(orderName:orderName,dcName:character.name)
+    
     return cell
   }
-//
-//  func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-//    return UITableView.automaticDimension
-//  }
   
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     return 200
@@ -85,7 +85,62 @@ extension OrderThirdViewController:UITableViewDataSource, UITableViewDelegate {
 
 class characterTableViewCell: UITableViewCell {
   
+  var imageArray = [UIImage]()
+  var orderName:String!
+  var dcName:String!
+  
   @IBOutlet weak var characterName: UILabel!
   @IBOutlet weak var characterDescription: UILabel!
+  
+  override func awakeFromNib() {
+     super.awakeFromNib()
+  }
+  
+  func UpdateViews(orderName:String,dcName:String){
+    loadOrderDCImages(orderName: orderName,name:dcName)
+  }
+  
+  func loadOrderDCImages(orderName:String, name:String) {
+   let fm = FileManager.default
+
+    let ref_name = name.components(separatedBy:" ").joined(separator: "").components(separatedBy:"-").joined(separator: "").lowercased()
+   let ref_orderName = orderName.components(separatedBy:" ").joined(separator: "-").lowercased()
+   let path = Bundle.main.resourceURL!.appendingPathComponent("img/orders/\(ref_orderName)/dc").path
+  
+   do {
+      let items = try fm.contentsOfDirectory(atPath: path)
+      for item in items {
+        let reformatted_item_name = item.lowercased()
+        if reformatted_item_name.hasPrefix(ref_name) && (item.hasSuffix(".jpg")||item.hasSuffix(".png")) {
+          let imageURL = Bundle.main.resourceURL!.appendingPathComponent("img/orders/\(ref_orderName)/dc/\(item)")
+          imageArray.append(UIImage(contentsOfFile: imageURL.path) ?? UIImage(named: "aquatic")!)
+        }
+      }
+  } catch let error {
+    imageArray = []
+  }
+  
+  }
+
+}
+
+extension characterTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource {
+  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    return imageArray.count
+  }
+  
+  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    let cell =
+        collectionView.dequeueReusableCell(withReuseIdentifier: "OrderDCCollectionViewCell", for: indexPath) as!
+        OrderDCCollectionViewCell
+    cell.image.image = imageArray[indexPath.item]
+    return cell
+  }
+  
+  
+}
+class OrderDCCollectionViewCell:UICollectionViewCell {
+  @IBOutlet weak var image: UIImageView!
+  
 }
 

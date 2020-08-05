@@ -72,6 +72,14 @@ extension TopMenuPopViewController: UICollectionViewDelegate, UICollectionViewDa
 
           return CGSize(width: size, height: size)
       }
+  
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc =
+            storyboard?
+                .instantiateViewController(withIdentifier: "OrderViewController") as? OrderViewController
+        vc?.order = orders[indexPath.item]
+        self.navigationController?.pushViewController(vc!, animated: true)
+    }
     
 }
 
