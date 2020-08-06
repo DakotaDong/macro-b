@@ -38,7 +38,7 @@ extension FamilySpecimanViewController: UICollectionViewDelegate, UICollectionVi
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FamilySpecimenCollectionViewCell", for: indexPath) as!
             FamilySpecimanCollectionViewCell
         let genus = genera[indexPath.row]
-        cell.familyImage.image = UIImage(named: "aquatic") /// TODO: FIX THIS
+        cell.familyImage.image = UIImage(named: "acentrella") /// TODO: FIX THIS
         cell.familyLabel.text = genus.name
         
         return cell

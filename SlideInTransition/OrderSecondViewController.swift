@@ -23,7 +23,6 @@ class OrderSecondViewController: UIViewController {
     var name = ""
     var order: Order!
     
-    let items = ["This order of insects earns its name from a notoriously short-lived adult lifespan, which can last less than 24 hours. However, young mayfly nymphs may feed and grow in streams, rivers, lakes, and ponds for up to two years. As important links in the freshwater food web, young mayflies are often voracious herbivores, detritivores, or even carnivores, in addition to being preferred food sources for many freshwater carnivores."]
 
     override func viewDidLoad() {
       super.viewDidLoad()
@@ -34,19 +33,5 @@ class OrderSecondViewController: UIViewController {
         print(order_content.illustrationImage)
         illustrationImage.image = UIImage(named:order_content.illustrationImage)
       }
-//      self.view.backgroundColor = .red
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

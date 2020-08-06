@@ -13,22 +13,4 @@ class FamilySpecimanCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var familyLabel: UILabel!
     @IBOutlet weak var familyImage: UIImageView!
     
-//    var family: Family! {
-//        didSet {
-//            self.updateUI()
-//        }
-//    }
-//    
-//    func updateUI() {
-//        if let family = family {
-//            familyImage.image = family.familyImage
-//            familyLabel.text = family.familyLabel
-//            
-//            
-//        } else {
-//            familyImage.image = nil
-//            familyLabel.text = nil
-//           
-//        }
-//    }
 }

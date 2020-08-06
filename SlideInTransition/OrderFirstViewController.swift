@@ -8,11 +8,6 @@
 
 import UIKit
 
-struct FamilyA {
-  var scientificName: String
-  var commonName: String
-}
-
 class OrderFirstViewController: UIViewController {
   
     var db:DBHelper = DBHelper()
@@ -77,8 +72,9 @@ extension OrderFirstViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc =
             storyboard?
-                .instantiateViewController(withIdentifier: "FamilySpecimanViewController") as? FamilySpecimanViewController
+                .instantiateViewController(withIdentifier: "FamilyViewController") as? FamilyViewController
         vc?.family = families[indexPath.row]
+        vc?.order = order
         self.navigationController?.pushViewController(vc!, animated: true)
     }
   

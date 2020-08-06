@@ -8,10 +8,6 @@
 
 import UIKit
 
-struct Character {
-  var name: String
-  var description: String
-}
  
 class OrderThirdViewController: UIViewController {
   
@@ -30,7 +26,6 @@ class OrderThirdViewController: UIViewController {
       orderDiagCharacters = db.readOrderDiagCharacterByOrder(orderId: order_content.id)
       orderName = order_content.scientificName
     }
-//    self.view.backgroundColor = .red
 
   }
   override func viewWillAppear(_ animated: Bool) {
@@ -69,7 +64,6 @@ extension OrderThirdViewController:UITableViewDataSource, UITableViewDelegate {
     let character = orderDiagCharacters[indexPath.row]
     cell.characterName?.text = character.name
     cell.characterDescription?.text = character.description
-    
     cell.UpdateViews(orderName:orderName,dcName:character.name)
     
     return cell
@@ -86,14 +80,28 @@ extension OrderThirdViewController:UITableViewDataSource, UITableViewDelegate {
 class characterTableViewCell: UITableViewCell {
   
   var imageArray = [UIImage]()
-  var orderName:String!
-  var dcName:String!
+//  var orderName:String!
+//  var dcName:String!
   
   @IBOutlet weak var characterName: UILabel!
   @IBOutlet weak var characterDescription: UILabel!
+  @IBOutlet weak var collectionView: UICollectionView!
+  
+  override func prepareForReuse() {
+    super.prepareForReuse()
+    collectionView.dataSource = nil
+    collectionView.delegate = nil
+    imageArray = [UIImage]()
+    collectionView.reloadData()
+    collectionView.delegate = self
+    collectionView.dataSource = self
+  }
   
   override func awakeFromNib() {
      super.awakeFromNib()
+     collectionView.delegate = self
+     collectionView.dataSource = self
+    
   }
   
   func UpdateViews(orderName:String,dcName:String){

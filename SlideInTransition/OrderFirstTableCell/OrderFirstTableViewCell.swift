@@ -19,6 +19,16 @@ class OrderFirstTableViewCell: UITableViewCell {
   @IBOutlet weak var commonName: UILabel!
   
   @IBOutlet weak var collectionView: UICollectionView!
+  
+  override func prepareForReuse() {
+
+        collectionView.dataSource = nil
+        collectionView.delegate = nil
+        collectionView.reloadData()
+
+        collectionView.dataSource = self
+        collectionView.delegate = self
+  }
     override func awakeFromNib() {
         
         super.awakeFromNib()
@@ -26,17 +36,11 @@ class OrderFirstTableViewCell: UITableViewCell {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.backgroundColor = UIColor(red: 0.90, green: 0.90, blue: 0.90, alpha: 1.00)
-//        if let familyID = familyId {
-//          genera = db.readGenusByFamily(familyId: familyID)
-//          print("AAAAAA")
-//          print(genera)
-//          print(familyID)
-//        }
+
         
     }
   
     func UpdateViews(familyId:Int){
-      print("PPPPP",scientificName.text,familyId)
       genera = db.readGenusByFamily(familyId: familyId)
     }
 
