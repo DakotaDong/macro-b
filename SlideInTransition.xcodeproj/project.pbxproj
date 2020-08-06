@@ -25,6 +25,10 @@
 		5E07F73E24C0C3D50059715A /* CustomSegmentedContrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E07F73D24C0C3D50059715A /* CustomSegmentedContrl.swift */; };
 		5E07F74124C0CEB40059715A /* TopMenuPopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E07F73F24C0CEB30059715A /* TopMenuPopCollectionViewCell.swift */; };
 		5E07F74224C0CEB40059715A /* TopMenuPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E07F74024C0CEB30059715A /* TopMenuPopViewController.swift */; };
+		5E3FD96D24DAFDAC004CA9B9 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 5E3FD96C24DAFDAC004CA9B9 /* img */; };
+		5E3FD96F24DB6F64004CA9B9 /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FD96E24DB6F64004CA9B9 /* FamilyViewController.swift */; };
+		5E3FD97324DB70F2004CA9B9 /* FamilySecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FD97224DB70F2004CA9B9 /* FamilySecondViewController.swift */; };
+		5E3FD97524DB7104004CA9B9 /* FamilyThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FD97424DB7104004CA9B9 /* FamilyThirdViewController.swift */; };
 		5E9D7B0724D85E050041EFD0 /* QuestionImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D7B0324D85E050041EFD0 /* QuestionImageCollectionViewCell.swift */; };
 		5E9D7B0824D85E050041EFD0 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D7B0424D85E050041EFD0 /* Question.swift */; };
 		5E9D7B0924D85E050041EFD0 /* QuestionResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D7B0524D85E050041EFD0 /* QuestionResultViewController.swift */; };
@@ -32,10 +36,12 @@
 		5E9D7B7824D85E510041EFD0 /* PopoverContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D7B7724D85E510041EFD0 /* PopoverContentController.swift */; };
 		5E9D7B7A24D860DD0041EFD0 /* PopoverContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D7B7924D860DD0041EFD0 /* PopoverContentController.swift */; };
 		5E9D7B7C24D8610B0041EFD0 /* KeyStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D7B7B24D8610B0041EFD0 /* KeyStartViewController.swift */; };
-		5E9D7B7E24D861AB0041EFD0 /* Key.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9D7B7D24D861AB0041EFD0 /* Key.storyboard */; };
-		5E9D7B8024D876810041EFD0 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 5E9D7B7F24D876810041EFD0 /* img */; };
 		5E9D7B8324D89F6E0041EFD0 /* ZoomVentralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D7B8124D89F6E0041EFD0 /* ZoomVentralViewController.swift */; };
 		5E9D7B8424D89F6E0041EFD0 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D7B8224D89F6E0041EFD0 /* ZoomViewController.swift */; };
+		5E9D7B8624D8A8B40041EFD0 /* OrderDiagCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D7B8524D8A8B40041EFD0 /* OrderDiagCharacter.swift */; };
+		5E9D7B8B24D9E04A0041EFD0 /* FamilyDiagCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D7B8A24D9E04A0041EFD0 /* FamilyDiagCharacter.swift */; };
+		5E9D7B8E24D9E0B90041EFD0 /* Key.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9D7B8D24D9E0B90041EFD0 /* Key.storyboard */; };
+		5E9D7B9024D9E0E10041EFD0 /* Genus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D7B8F24D9E0E10041EFD0 /* Genus.swift */; };
 		5EB30BD724CC88DC004075A5 /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB30BD424CC88D9004075A5 /* Family.swift */; };
 		5EB30BD824CC88DC004075A5 /* FamilySpecimanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB30BD524CC88DB004075A5 /* FamilySpecimanCollectionViewCell.swift */; };
 		5EB30BD924CC88DC004075A5 /* FamilySpecimanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB30BD624CC88DB004075A5 /* FamilySpecimanViewController.swift */; };
@@ -43,6 +49,7 @@
 		5EB30BE224CF6FAC004075A5 /* macroApp.db in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB30BE124CF6FAC004075A5 /* macroApp.db */; };
 		5EB30BE424CF6FCC004075A5 /* macroApp.db in Resources */ = {isa = PBXBuildFile; fileRef = 5EB30BE324CF6FCC004075A5 /* macroApp.db */; };
 		5EB30BE624CF74F2004075A5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB30BE524CF74F2004075A5 /* libsqlite3.tbd */; settings = {ATTRIBUTES = (Required, ); }; };
+		F603B57A59A299BCE62851C2 /* Pods_SlideInTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F99217617A35C9DB565177 /* Pods_SlideInTransition.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,11 +68,16 @@
 		20C8FBE721EAC6D300850BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20C8FBE921EAC6D300850BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C8FBEF21EAC83100850BB7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		54FC0E7161B97287C791E651 /* Pods-SlideInTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideInTransition.release.xcconfig"; path = "Target Support Files/Pods-SlideInTransition/Pods-SlideInTransition.release.xcconfig"; sourceTree = "<group>"; };
 		5E07F73924C0C0350059715A /* OrderSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSecondViewController.swift; sourceTree = "<group>"; };
 		5E07F73B24C0C0440059715A /* OrderThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderThirdViewController.swift; sourceTree = "<group>"; };
 		5E07F73D24C0C3D50059715A /* CustomSegmentedContrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedContrl.swift; sourceTree = "<group>"; };
 		5E07F73F24C0CEB30059715A /* TopMenuPopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuPopCollectionViewCell.swift; sourceTree = "<group>"; };
 		5E07F74024C0CEB30059715A /* TopMenuPopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuPopViewController.swift; sourceTree = "<group>"; };
+		5E3FD96C24DAFDAC004CA9B9 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		5E3FD96E24DB6F64004CA9B9 /* FamilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
+		5E3FD97224DB70F2004CA9B9 /* FamilySecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilySecondViewController.swift; sourceTree = "<group>"; };
+		5E3FD97424DB7104004CA9B9 /* FamilyThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyThirdViewController.swift; sourceTree = "<group>"; };
 		5E9D7B0324D85E050041EFD0 /* QuestionImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		5E9D7B0424D85E050041EFD0 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		5E9D7B0524D85E050041EFD0 /* QuestionResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionResultViewController.swift; sourceTree = "<group>"; };
@@ -73,10 +85,12 @@
 		5E9D7B7724D85E510041EFD0 /* PopoverContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopoverContentController.swift; path = "/Users/chelsea/Desktop/macro-b-master/SlideInTransition/PopoverContentController.swift"; sourceTree = "<absolute>"; };
 		5E9D7B7924D860DD0041EFD0 /* PopoverContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopoverContentController.swift; path = "/Users/chelsea/Desktop/macro-b-master/SlideInTransition/PopoverContentController.swift"; sourceTree = "<absolute>"; };
 		5E9D7B7B24D8610B0041EFD0 /* KeyStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStartViewController.swift; sourceTree = "<group>"; };
-		5E9D7B7D24D861AB0041EFD0 /* Key.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Key.storyboard; sourceTree = "<group>"; };
-		5E9D7B7F24D876810041EFD0 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
 		5E9D7B8124D89F6E0041EFD0 /* ZoomVentralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomVentralViewController.swift; sourceTree = "<group>"; };
 		5E9D7B8224D89F6E0041EFD0 /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		5E9D7B8524D8A8B40041EFD0 /* OrderDiagCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDiagCharacter.swift; sourceTree = "<group>"; };
+		5E9D7B8A24D9E04A0041EFD0 /* FamilyDiagCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyDiagCharacter.swift; sourceTree = "<group>"; };
+		5E9D7B8D24D9E0B90041EFD0 /* Key.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Key.storyboard; sourceTree = "<group>"; };
+		5E9D7B8F24D9E0E10041EFD0 /* Genus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genus.swift; sourceTree = "<group>"; };
 		5EB30BD424CC88D9004075A5 /* Family.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
 		5EB30BD524CC88DB004075A5 /* FamilySpecimanCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilySpecimanCollectionViewCell.swift; sourceTree = "<group>"; };
 		5EB30BD624CC88DB004075A5 /* FamilySpecimanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilySpecimanViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +98,8 @@
 		5EB30BE124CF6FAC004075A5 /* macroApp.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = macroApp.db; path = SlideInTransition/macroApp.db; sourceTree = "<group>"; };
 		5EB30BE324CF6FCC004075A5 /* macroApp.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = macroApp.db; sourceTree = "<group>"; };
 		5EB30BE524CF74F2004075A5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		653AA46C372ED93803F516A3 /* Pods-SlideInTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideInTransition.debug.xcconfig"; path = "Target Support Files/Pods-SlideInTransition/Pods-SlideInTransition.debug.xcconfig"; sourceTree = "<group>"; };
+		E3F99217617A35C9DB565177 /* Pods_SlideInTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlideInTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +109,7 @@
 			files = (
 				5EB30BE624CF74F2004075A5 /* libsqlite3.tbd in Frameworks */,
 				5EB30BE224CF6FAC004075A5 /* macroApp.db in Frameworks */,
+				F603B57A59A299BCE62851C2 /* Pods_SlideInTransition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +130,7 @@
 				20C8FBDC21EAC6D200850BB7 /* SlideInTransition */,
 				20C8FBDB21EAC6D200850BB7 /* Products */,
 				5EB30BDE24CF58E6004075A5 /* Frameworks */,
+				E97DEA022948DD4337AF85D9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,27 +145,26 @@
 		20C8FBDC21EAC6D200850BB7 /* SlideInTransition */ = {
 			isa = PBXGroup;
 			children = (
-				5E9D7B7F24D876810041EFD0 /* img */,
-				5E9D7B7B24D8610B0041EFD0 /* KeyStartViewController.swift */,
-				5E9D7B7D24D861AB0041EFD0 /* Key.storyboard */,
+				5E3FD96C24DAFDAC004CA9B9 /* img */,
 				5E9D7B7924D860DD0041EFD0 /* PopoverContentController.swift */,
+				5E9D7B7B24D8610B0041EFD0 /* KeyStartViewController.swift */,
 				5EB30BE324CF6FCC004075A5 /* macroApp.db */,
 				1D99527124BCF0940057AC55 /* OrderFirstTableCell */,
 				20C8FBDD21EAC6D200850BB7 /* AppDelegate.swift */,
+				5E9D7B9124D9E3EA0041EFD0 /* Storyboard */,
 				20C8FBDF21EAC6D200850BB7 /* HomeViewController.swift */,
-				5E9D7B0424D85E050041EFD0 /* Question.swift */,
 				5E9D7B0324D85E050041EFD0 /* QuestionImageCollectionViewCell.swift */,
 				5E9D7B0524D85E050041EFD0 /* QuestionResultViewController.swift */,
 				5E9D7B7724D85E510041EFD0 /* PopoverContentController.swift */,
 				5E9D7B0624D85E050041EFD0 /* QuestionViewController.swift */,
-				20C8FBE121EAC6D200850BB7 /* Main.storyboard */,
+				5E3FD96E24DB6F64004CA9B9 /* FamilyViewController.swift */,
+				5E3FD97224DB70F2004CA9B9 /* FamilySecondViewController.swift */,
+				5E3FD97424DB7104004CA9B9 /* FamilyThirdViewController.swift */,
 				1DC24BA2249E98B500DD30DE /* OrderCollectionViewCell.swift */,
 				20C8FBE421EAC6D300850BB7 /* Assets.xcassets */,
-				20C8FBE621EAC6D300850BB7 /* LaunchScreen.storyboard */,
 				20C8FBE921EAC6D300850BB7 /* Info.plist */,
 				20C8FBEF21EAC83100850BB7 /* MenuViewController.swift */,
 				203835C621EC2F4800D8F86F /* SlideInTransition.swift */,
-				1DC24BA4249EA0CD00DD30DE /* Order.swift */,
 				1D99526B24BB77FF0057AC55 /* OrderViewController.swift */,
 				5E07F73F24C0CEB30059715A /* TopMenuPopCollectionViewCell.swift */,
 				5E07F74024C0CEB30059715A /* TopMenuPopViewController.swift */,
@@ -158,7 +175,7 @@
 				1D99526F24BCF0310057AC55 /* OrderFirstViewController.swift */,
 				5E07F73924C0C0350059715A /* OrderSecondViewController.swift */,
 				5E07F73B24C0C0440059715A /* OrderThirdViewController.swift */,
-				5EB30BD424CC88D9004075A5 /* Family.swift */,
+				5E9D7B8924D9DFBB0041EFD0 /* Model */,
 				5EB30BDA24CF4633004075A5 /* DBHelper.swift */,
 				5EB30BD524CC88DB004075A5 /* FamilySpecimanCollectionViewCell.swift */,
 				5EB30BD624CC88DB004075A5 /* FamilySpecimanViewController.swift */,
@@ -166,13 +183,47 @@
 			path = SlideInTransition;
 			sourceTree = "<group>";
 		};
+		5E9D7B8924D9DFBB0041EFD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D7B0424D85E050041EFD0 /* Question.swift */,
+				5EB30BD424CC88D9004075A5 /* Family.swift */,
+				5E9D7B8F24D9E0E10041EFD0 /* Genus.swift */,
+				1DC24BA4249EA0CD00DD30DE /* Order.swift */,
+				5E9D7B8524D8A8B40041EFD0 /* OrderDiagCharacter.swift */,
+				5E9D7B8A24D9E04A0041EFD0 /* FamilyDiagCharacter.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5E9D7B9124D9E3EA0041EFD0 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D7B8D24D9E0B90041EFD0 /* Key.storyboard */,
+				20C8FBE621EAC6D300850BB7 /* LaunchScreen.storyboard */,
+				20C8FBE121EAC6D200850BB7 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
 		5EB30BDE24CF58E6004075A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5EB30BE524CF74F2004075A5 /* libsqlite3.tbd */,
 				5EB30BE124CF6FAC004075A5 /* macroApp.db */,
+				E3F99217617A35C9DB565177 /* Pods_SlideInTransition.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E97DEA022948DD4337AF85D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				653AA46C372ED93803F516A3 /* Pods-SlideInTransition.debug.xcconfig */,
+				54FC0E7161B97287C791E651 /* Pods-SlideInTransition.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20C8FBEC21EAC6D300850BB7 /* Build configuration list for PBXNativeTarget "SlideInTransition" */;
 			buildPhases = (
+				A741EA7E83430FA64E411CF9 /* [CP] Check Pods Manifest.lock */,
 				20C8FBD621EAC6D200850BB7 /* Sources */,
 				20C8FBD721EAC6D200850BB7 /* Frameworks */,
 				20C8FBD821EAC6D200850BB7 /* Resources */,
+				913642CF3234443BAF837786 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,16 +286,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E9D7B8024D876810041EFD0 /* img in Resources */,
+				5E3FD96D24DAFDAC004CA9B9 /* img in Resources */,
 				5EB30BE424CF6FCC004075A5 /* macroApp.db in Resources */,
 				20C8FBE821EAC6D300850BB7 /* LaunchScreen.storyboard in Resources */,
 				20C8FBE521EAC6D300850BB7 /* Assets.xcassets in Resources */,
-				5E9D7B7E24D861AB0041EFD0 /* Key.storyboard in Resources */,
 				20C8FBE321EAC6D200850BB7 /* Main.storyboard in Resources */,
+				5E9D7B8E24D9E0B90041EFD0 /* Key.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		913642CF3234443BAF837786 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlideInTransition/Pods-SlideInTransition-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlideInTransition/Pods-SlideInTransition-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SlideInTransition/Pods-SlideInTransition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A741EA7E83430FA64E411CF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SlideInTransition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20C8FBD621EAC6D200850BB7 /* Sources */ = {
@@ -250,14 +345,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D99526C24BB77FF0057AC55 /* OrderViewController.swift in Sources */,
+				5E9D7B8624D8A8B40041EFD0 /* OrderDiagCharacter.swift in Sources */,
 				1D99527024BCF0310057AC55 /* OrderFirstViewController.swift in Sources */,
 				5E9D7B0724D85E050041EFD0 /* QuestionImageCollectionViewCell.swift in Sources */,
+				5E9D7B8B24D9E04A0041EFD0 /* FamilyDiagCharacter.swift in Sources */,
 				5E9D7B7C24D8610B0041EFD0 /* KeyStartViewController.swift in Sources */,
+				5E9D7B9024D9E0E10041EFD0 /* Genus.swift in Sources */,
 				5E9D7B7824D85E510041EFD0 /* PopoverContentController.swift in Sources */,
 				5E07F73A24C0C0350059715A /* OrderSecondViewController.swift in Sources */,
 				5E07F73C24C0C0440059715A /* OrderThirdViewController.swift in Sources */,
 				5E9D7B0924D85E050041EFD0 /* QuestionResultViewController.swift in Sources */,
 				5E9D7B0A24D85E050041EFD0 /* QuestionViewController.swift in Sources */,
+				5E3FD97524DB7104004CA9B9 /* FamilyThirdViewController.swift in Sources */,
 				1DC24BA5249EA0CD00DD30DE /* Order.swift in Sources */,
 				5E07F74124C0CEB40059715A /* TopMenuPopCollectionViewCell.swift in Sources */,
 				1D99526E24BB7DB40057AC55 /* OrderFamilyTableViewCell.swift in Sources */,
@@ -268,7 +367,9 @@
 				5EB30BD724CC88DC004075A5 /* Family.swift in Sources */,
 				5E9D7B0824D85E050041EFD0 /* Question.swift in Sources */,
 				1D99527324BCF0EF0057AC55 /* OrderFirstTableViewCell.swift in Sources */,
+				5E3FD96F24DB6F64004CA9B9 /* FamilyViewController.swift in Sources */,
 				5EB30BD924CC88DC004075A5 /* FamilySpecimanViewController.swift in Sources */,
+				5E3FD97324DB70F2004CA9B9 /* FamilySecondViewController.swift in Sources */,
 				20C8FBE021EAC6D200850BB7 /* HomeViewController.swift in Sources */,
 				5EB30BDB24CF4633004075A5 /* DBHelper.swift in Sources */,
 				5E9D7B7A24D860DD0041EFD0 /* PopoverContentController.swift in Sources */,
@@ -420,6 +521,7 @@
 		};
 		20C8FBED21EAC6D300850BB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 653AA46C372ED93803F516A3 /* Pods-SlideInTransition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +540,7 @@
 		};
 		20C8FBEE21EAC6D300850BB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54FC0E7161B97287C791E651 /* Pods-SlideInTransition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

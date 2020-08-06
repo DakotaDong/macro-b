@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import BTNavigationDropdownMenu
 
 class FamilyViewController: UIViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate, UIScrollViewDelegate {
     
@@ -22,7 +23,10 @@ class FamilyViewController: UIViewController, UIPageViewControllerDataSource, UI
     
       var family: Family!
       var order: Order!
-    
+      var familyNames = [String]()
+      var families = [Family]()
+  
+      var menuView = BTNavigationDropdownMenu(title: BTTitle.index(1), items: [])
     
       
       // MARK: Family ViewController
@@ -59,11 +63,25 @@ class FamilyViewController: UIViewController, UIPageViewControllerDataSource, UI
     
       override func viewDidLoad() {
           super.viewDidLoad()
-            
+        
           if let family_content = family {
             scientificName.text = family_content.scientificName
             commonName.text = family_content.commonName
-            self.title = family_content.scientificName
+            families = db.readFamilyByOrder(orderId: order.id)
+            familyNames = families.map { $0.scientificName }
+            
+            menuView = BTNavigationDropdownMenu(navigationController: self.navigationController, containerView: self.navigationController!.view, title: BTTitle.title(family_content.scientificName), items: familyNames)
+            menuView.arrowTintColor = UIColor.black
+            menuView.didSelectItemAtIndexHandler = {[weak self] (indexPath: Int) -> () in
+              print("Did select item at index: \(self!.families[indexPath])")
+              let vc =
+                self!.storyboard?
+                      .instantiateViewController(withIdentifier: "FamilyViewController") as? FamilyViewController
+              vc?.family = self!.families[indexPath]
+              vc?.order = self!.order
+              self?.navigationController?.pushViewController(vc!, animated: true)
+            }
+            self.navigationItem.titleView = menuView
 
           }
           
@@ -77,6 +95,7 @@ class FamilyViewController: UIViewController, UIPageViewControllerDataSource, UI
         
           
       }
+  
     
     
       var segmentedControl: CustomSegmentedContrl!
